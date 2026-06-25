@@ -28,7 +28,7 @@
 #include <inttypes.h>
 #include <string.h>
 
-static const char* FIRMWARE_VERSION = "wr1.0.1-classic-combo-kbd3";
+static const char* FIRMWARE_VERSION = "wr1.0.4";
 static const char* BT_DEVICE_NAME = "AirMic WR101";
 static const char* BOND_RESET_MARKER = "wr101-kbd-one3";
 
