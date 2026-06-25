@@ -21,7 +21,7 @@
 ### 2) 执行刷写
 
 ```bash
-esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
+esptool.py --chip <你的芯片型号> --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
   0x1000 firmware/bootloader.bin \
   0x8000 firmware/partitions.bin \
   0x10000 firmware/airmic_ble_full.bin
