@@ -3,11 +3,44 @@
 **版本**: wr1.0.1-classic-combo-kbd3  
 **日期**: 2026-06-26
 
-本仓库仅发布可运行文件与使用说明，不包含源码。
+本仓库仅发布可运行文件与用户使用说明，不包含源码。
 
-**注意：此版本为纯蓝牙方向，不含 Wi‑Fi/Mac 辅助脚本。**
+## 你要的一页式使用说明（对外发布）
 
-## 目录
+### 1) 烧入固件（终端）
+
+- 第一步：确认设备已连接到 USB。
+- 第二步：在终端执行刷写命令（将串口改成你机器上的端口）：
+
+```bash
+esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
+  0x1000 firmware/bootloader.bin \
+  0x8000 firmware/partitions.bin \
+  0x10000 firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin
+```
+
+- 第三步：重启设备，确认有蓝牙广播出现。
+
+### 2) 绑定和使用
+
+1. 打开系统蓝牙，配对设备。
+2. 在系统声音/输入设备里选中 AirMic 的蓝牙麦克风输入。
+3. 在任意输入框测试按键：
+   - 左：退格
+   - 中：右 Option（可用于听写启动）
+   - 右：回车
+
+### 3) 常见问题（先看这里）
+
+- 没有蓝牙广播：重启设备后再试，确认步骤 1 的刷写文件与参数无误。
+- 有连接但没音频：到输入源重新选中蓝牙麦克风。
+- 按键无响应：确认蓝牙已连接，重启再试。
+
+> 本页故意不展示开发编译、开发板型号和上位机工具链细节，仅给出可执行的交付流程。
+
+---
+
+## 目录（文件）
 
 - `firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin`：主固件（合并镜像）
 - `firmware/bootloader.bin`
@@ -18,32 +51,7 @@
 - `docs/wroom32_ble_all_bluetooth.md`：全蓝牙方向说明
 - `docs/custom_key_mapping.md`：按键映射说明
 
-## 刷机说明（推荐）
-
-1. 先准备好 USB 串口环境，确保可以调用 `esptool.py`。
-2. 连接设备到 USB 并识别端口（例如 `/dev/cu.usbserial-0001` 或 `/dev/cu.usbmodemxxxx`）
-3. 烧录（推荐 `esptool.py`）：
-
-```bash
-esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
-  0x1000 firmware/bootloader.bin \
-  0x8000 firmware/partitions.bin \
-  0x10000 firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin
-```
-
-> 你不用装 `arduino-cli`。
-> 这是纯终端刷机路径。
-
-> 不同开发板 Flash 偏移可能不同：若上传后无蓝牙广播，先检查烧录起始地址。
-
-## 使用说明
-
-- 配对与硬件参数：见 `docs/airmic_wr104_user_guide.md`
-- 需求定位（纯蓝牙版）：见 `docs/wroom32_ble_all_bluetooth.md`
-- 按键定制思路：见 `docs/custom_key_mapping.md`
-
 ## 你要重点知道的
 
-- 这是“纯蓝牙”方向：键盘与麦克风都不经过 `wifi/receiver.py`。
-- Mac/PC 端不再需要安装 `AirMic` Python 助手。
+- 这是“纯蓝牙”方向：键盘与麦克风都不经过桌面辅助程序。
 - 本发布包不包含源代码仓库，便于外发且不泄露核心开发流程。
