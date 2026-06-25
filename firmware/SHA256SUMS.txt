@@ -1,1 +1,0 @@
-1647671bee40c9ed799026acd7afad878cf98eea0eea1f3f791d2424f0e6b6d3  /Users/jiang/Documents/AirMic Keypad/dist/AirMic-OpenRelease-20260626-003903/firmware/airmic_wr1.0.1_esp32s3_wifi_mic.bin
