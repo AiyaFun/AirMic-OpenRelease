@@ -1,4 +1,4 @@
-# AirMic 纯蓝牙版固件公开发布（WR101/WROOM-32）
+# AirMic 纯蓝牙版固件公开发布
 
 **版本**: wr1.0.1-classic-combo-kbd3  
 **日期**: 2026-06-26
@@ -20,11 +20,9 @@
 
 ## 刷机说明（推荐）
 
-1. 安装 `arduino-cli`：
-   - `brew install arduino-cli`
-2. 确认板子为 ESP32-WROOM-32/DA，连接 USB
-3. 识别端口（例如 `/dev/cu.usbserial-0001` 或 `/dev/cu.usbmodemxxxx`）
-4. 烧录（推荐 `esptool.py`）：
+1. 先准备好 USB 串口环境，确保可以调用 `esptool.py`。
+2. 连接设备到 USB 并识别端口（例如 `/dev/cu.usbserial-0001` 或 `/dev/cu.usbmodemxxxx`）
+3. 烧录（推荐 `esptool.py`）：
 
 ```bash
 esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
@@ -32,6 +30,9 @@ esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash 
   0x8000 firmware/partitions.bin \
   0x10000 firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin
 ```
+
+> 你不用装 `arduino-cli`。
+> 这是纯终端刷机路径。
 
 > 不同开发板 Flash 偏移可能不同：若上传后无蓝牙广播，先检查烧录起始地址。
 
