@@ -16,7 +16,7 @@
 esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
   0x1000 firmware/bootloader.bin \
   0x8000 firmware/partitions.bin \
-  0x10000 firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin
+  0x10000 firmware/airmic_ble_full.bin
 ```
 
 - 第三步：重启设备，确认有蓝牙广播出现。
@@ -42,11 +42,11 @@ esptool.py --chip esp32 --port /dev/cu.usbserial-0001 --baud 921600 write_flash 
 
 ## 目录（文件）
 
-- `firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin`：主固件（合并镜像）
+- `firmware/airmic_ble_full.bin`：主固件（合并镜像）
 - `firmware/bootloader.bin`
 - `firmware/partitions.bin`
-- `firmware/firmware.elf`
-- `firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.ino`：仅作公开参考（非完整工程）
+- `firmware/firmware_app.elf`
+- `firmware/airmic_ble_full.ino`：仅作公开参考（非完整工程）
 - `docs/airmic_wr104_user_guide.md`：配对/上手/故障
 - `docs/wroom32_ble_all_bluetooth.md`：全蓝牙方向说明
 - `docs/custom_key_mapping.md`：按键映射说明
