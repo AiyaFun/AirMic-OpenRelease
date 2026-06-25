@@ -1,0 +1,1 @@
+d50752019ff794ec1483de2db295206e4d72cf0671341d5cb9fe28f1d27b0573  /Users/jiang/Documents/AirMic Keypad/dist/AirMic-Bluetooth-OpenRelease-20260626-004352/firmware/airmic_wr1.0.1-esp32wroom32-bluetooth.bin
