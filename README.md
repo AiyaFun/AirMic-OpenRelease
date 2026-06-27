@@ -1,61 +1,68 @@
-# AirMic 纯蓝牙版公开发布
+# AirMic WR104 ESP-IDF Classic Combo
 
-**版本**: wr1.0.4  
-**发布日期**: 2026-06-26  
-**作者**: Aiya FUN
+**当前唯一保留版本**：`wr104-2026-06-27-stable`（WR104 2026-06-27 稳定版）  
+**蓝牙名称**：`AirMic WR104`  
+**方案**：一个 Classic Bluetooth 设备同时提供 HFP/HSP 麦克风和 Classic HID 键盘。
 
-本发布页面向购买者，公开可刷写固件与使用说明，不包含完整源码仓库。
+本仓库已收敛到 ESP-IDF 项目方案，不再保留其他临时固件、旧链路或旧发布包。
 
-## 先看文档（对外文档入口）
+## 固件位置
 
-- [AirMic WR104 使用说明（公开版）](docs/airmic_wr104_public_guide.md)
-- [AirMic WR104 详细用户说明（含配对/故障）](docs/airmic_wr104_user_guide.md)
-- [全蓝牙方向说明（全流程）](docs/wroom32_ble_all_bluetooth.md)
-- [按键映射说明](docs/custom_key_mapping.md)
-
-## 一、刷入固件（终端）
-
-### 1) 连接设备
-- 用 USB 连接设备到电脑
-
-### 2) 执行刷写
-
-```bash
-esptool.py --chip <你的芯片型号> --port /dev/cu.usbserial-0001 --baud 921600 write_flash -z \
-  0x1000 firmware/bootloader.bin \
-  0x8000 firmware/partitions.bin \
-  0x10000 firmware/airmic_ble_full.bin
+```text
+firmware/esp32_idf_classic_combo/
 ```
 
-### 3) 完成后
-- 重启设备，确认设备有蓝牙广播
+当前构建产物：
 
-## 二、绑定和使用
+```text
+firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin
+firmware/esp32_idf_classic_combo/build/partition_table/partition-table.bin
+firmware/esp32_idf_classic_combo/build/airmic_wr104_classic_combo.bin
+```
 
-1. 打开系统蓝牙，搜索 `AirMic WR104` 并配对。
-2. 在系统输入里选择 `AirMic WR104` 作为麦克风。
-3. 在输入框测试按键：
-   - 左：退格（Backspace）
-   - 中：右 Option
-   - 右：回车（Enter）
+## 刷机
 
-## 三、常见问题
+```bash
+cd firmware/esp32_idf_classic_combo
+python3 -m esptool --chip esp32 --port /dev/cu.usbserial-1140 --baud 460800 erase-flash
+python3 -m esptool --chip esp32 --port /dev/cu.usbserial-1140 --baud 460800 --before default-reset --after hard-reset write-flash \
+  --flash-mode dio --flash-size 4MB --flash-freq 40m \
+  0x1000 build/bootloader/bootloader.bin \
+  0x8000 build/partition_table/partition-table.bin \
+  0x10000 build/airmic_wr104_classic_combo.bin
+```
 
-- 搜不到设备：重启设备后再试，或清除旧绑定重配。
-- 有连接但没音频：确认输入设备已切到 `AirMic WR104`。
-- 按键无响应：确认蓝牙已成功连接后重试。
+## 重新构建
 
-## 四、发布文件
+```bash
+source ~/esp/esp-idf/export.sh
+cd firmware/esp32_idf_classic_combo
+idf.py set-target esp32
+idf.py build
+```
 
-- `firmware/airmic_ble_full.bin`：主固件（合并镜像）
-- `firmware/bootloader.bin`
-- `firmware/partitions.bin`
-- `firmware/firmware_app.elf`
-- `firmware/airmic_ble_full.ino`：公开参考
-- 上述文档文件（见文档入口）
+## 接线
 
-## 五、版权与二次编译说明
-- 公开发布包不含完整工程源码，不构成可直接复现源码级二次编译环境。
-- 如需完整复现，请使用完整源码仓库（含工程配置、依赖与构建说明）。
+按键：
 
-> 本说明不展示开发板型号与开发工具链细节，按交付可执行路径提供步骤。
+| 功能 | 引脚 | 触发 |
+| --- | --- | --- |
+| Backspace | GPIO32 | 按下接 3V3 |
+| Enter | GPIO27 | 按下接 3V3 |
+| 右 Option | GPIO14 | 按下接 3V3 |
+
+麦克风：
+
+| INMP441 | 控制端 |
+| --- | --- |
+| VDD | 3V3 |
+| GND | GND |
+| SCK / BCLK | GPIO26 |
+| WS / LRCL | GPIO25 |
+| SD / DOUT | GPIO33 |
+| L/R | GND |
+
+## 文档
+
+- [WR104 公开说明](docs/airmic_wr104_public_guide.md)
+- [WR104 用户说明](docs/airmic_wr104_user_guide.md)

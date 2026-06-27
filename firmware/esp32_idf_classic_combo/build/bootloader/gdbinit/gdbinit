@@ -1,0 +1,2 @@
+source /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/gdbinit/symbols
+source /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/gdbinit/connect
