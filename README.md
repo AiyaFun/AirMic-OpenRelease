@@ -1,6 +1,6 @@
 # AirMic WR104 ESP-IDF Classic Combo
 
-**当前唯一保留版本**：`wr104-2026-06-27-stable`（WR104 2026-06-27 稳定版）  
+**当前唯一保留版本**：`wr104-2026-06-29-new-board`（WR104 2026-06-29 新板接线版）  
 **蓝牙名称**：`AirMic WR104`  
 **方案**：一个 Classic Bluetooth 设备同时提供 HFP/HSP 麦克风和 Classic HID 键盘。
 
@@ -49,7 +49,7 @@ idf.py build
 | --- | --- | --- |
 | Backspace | GPIO32 | 按下接 3V3 |
 | Enter | GPIO27 | 按下接 3V3 |
-| 右 Option | GPIO14 | 按下接 3V3 |
+| 右 Option | GPIO12 | 按下接 3V3 |
 
 麦克风：
 
@@ -57,9 +57,9 @@ idf.py build
 | --- | --- |
 | VDD | 3V3 |
 | GND | GND |
-| SCK / BCLK | GPIO26 |
-| WS / LRCL | GPIO25 |
-| SD / DOUT | GPIO33 |
+| SCK / BCLK | GPIO17 |
+| WS / LRCL | GPIO4 |
+| SD / DOUT | GPIO0 |
 | L/R | GND |
 
 ## 文档

@@ -1349,432 +1349,172 @@
 22108	22200	1782572226420961354	esp-idf/spiffs/libspiffs.a	91e0b978fcb79a59
 21372	22317	1782572225684949965	esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj	aca0bb2167fb5150
 22317	22386	1782572226630320168	esp-idf/mqtt/libmqtt.a	5ed2ee44dda17749
-21974	22629	1782572226287248514	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-22629	22699	1782572226942336099	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-21975	23525	1782572226288422305	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-21975	23525	1782572226288422305	bootloader/bootloader.elf	9bc3892fac99018b
-21975	23525	1782572226288422305	bootloader/bootloader.bin	9bc3892fac99018b
-21975	23525	1782572226288422305	bootloader/bootloader.map	9bc3892fac99018b
-21975	23525	1782572226288422305	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-21975	23525	1782572226288422305	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-21975	23525	1782572226288422305	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-21975	23525	1782572226288422305	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-23526	23536	1782572227838745844	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-23526	23536	1782572227838745844	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-23536	23557	1782572227869846108	CMakeFiles/bootloader-complete	374f0d364fed122f
-23536	23557	1782572227869846108	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-23536	23557	1782572227869846108	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-23536	23557	1782572227869846108	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-22699	26871	1782572231166918348	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-22699	26871	1782572231166918348	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
+27	214	1782737452247334225	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
+214	251	1782737452434401813	esp-idf/main/libmain.a	4d1b941cd84aa3c5
+27	73	1782737452247609558	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
+27	73	1782737452247609558	bootloader/bootloader.elf	9bc3892fac99018b
+27	73	1782737452247609558	bootloader/bootloader.bin	9bc3892fac99018b
+27	73	1782737452247609558	bootloader/bootloader.map	9bc3892fac99018b
+27	73	1782737452247609558	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
+27	73	1782737452247609558	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
+27	73	1782737452247609558	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
+27	73	1782737452247609558	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
+73	82	1782737452292771802	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
+73	82	1782737452292771802	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
+82	102	1782737452321781000	CMakeFiles/bootloader-complete	374f0d364fed122f
+82	102	1782737452321781000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
+82	102	1782737452321781000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
+82	102	1782737452321781000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
+251	3763	1782737455970463099	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
+251	3763	1782737455970463099	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
 26871	26893	1782572231183852625	CMakeFiles/airmic_wr104_classic_combo.elf.dir/project_elf_src_esp32.c.obj	60ea41d757a63ea8
-26894	28246	1782572231206696396	airmic_wr104_classic_combo.elf	e1100c1352253162
-28246	28348	1782572232661019062	.bin_timestamp	997155739f00d327
-28246	28348	1782572232661019062	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-28348	28377	1782572232661652812	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-28348	28377	1782572232661652812	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	76	1782572339510251661	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	76	1782572339510251661	bootloader/bootloader.elf	9bc3892fac99018b
-29	76	1782572339510251661	bootloader/bootloader.bin	9bc3892fac99018b
-29	76	1782572339510251661	bootloader/bootloader.map	9bc3892fac99018b
-29	76	1782572339510251661	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	76	1782572339510251661	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	76	1782572339510251661	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	76	1782572339510251661	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-76	85	1782572339557436203	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-76	85	1782572339557436203	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-85	107	1782572339587127000	CMakeFiles/bootloader-complete	374f0d364fed122f
-85	107	1782572339587127000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-85	107	1782572339587127000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-85	107	1782572339587127000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	250	1782572339509763912	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-250	326	1782572339731472340	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-326	3999	1782572343466846522	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-326	3999	1782572343466846522	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3999	5415	1782572343480118552	airmic_wr104_classic_combo.elf	e1100c1352253162
-5415	5517	1782572344997793078	.bin_timestamp	997155739f00d327
-5415	5517	1782572344997793078	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5517	5551	1782572344998503578	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5517	5551	1782572344998503578	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	76	1782572608658072799	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	76	1782572608658072799	bootloader/bootloader.elf	9bc3892fac99018b
-29	76	1782572608658072799	bootloader/bootloader.bin	9bc3892fac99018b
-29	76	1782572608658072799	bootloader/bootloader.map	9bc3892fac99018b
-29	76	1782572608658072799	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	76	1782572608658072799	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	76	1782572608658072799	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	76	1782572608658072799	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-76	85	1782572608705093215	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-76	85	1782572608705093215	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-85	106	1782572608734677000	CMakeFiles/bootloader-complete	374f0d364fed122f
-85	106	1782572608734677000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-85	106	1782572608734677000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-85	106	1782572608734677000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	220	1782572608657607299	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-220	257	1782572608848876129	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-257	4026	1782572612640598013	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-257	4026	1782572612640598013	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4026	5404	1782572612654462500	airmic_wr104_classic_combo.elf	e1100c1352253162
-5404	5508	1782572614136587308	.bin_timestamp	997155739f00d327
-5404	5508	1782572614136587308	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5508	5538	1782572614137250808	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5508	5538	1782572614137250808	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	81	1782573159467294517	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	81	1782573159467294517	bootloader/bootloader.elf	9bc3892fac99018b
-29	81	1782573159467294517	bootloader/bootloader.bin	9bc3892fac99018b
-29	81	1782573159467294517	bootloader/bootloader.map	9bc3892fac99018b
-29	81	1782573159467294517	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	81	1782573159467294517	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	81	1782573159467294517	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	81	1782573159467294517	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-81	90	1782573159519670888	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-81	90	1782573159519670888	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-91	111	1782573159548963000	CMakeFiles/bootloader-complete	374f0d364fed122f
-91	111	1782573159548963000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-91	111	1782573159548963000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-91	111	1782573159548963000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-28	237	1782573159466815893	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-237	291	1782573159675693416	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-291	3996	1782573163420091091	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-291	3996	1782573163420091091	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3996	5425	1782573163434296204	airmic_wr104_classic_combo.elf	e1100c1352253162
-5425	5527	1782573164965138219	.bin_timestamp	997155739f00d327
-5425	5527	1782573164965138219	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5527	5556	1782573164965772094	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5527	5556	1782573164965772094	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-31	80	1782573499770361670	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782573499770361670	bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782573499770361670	bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782573499770361670	bootloader/bootloader.map	9bc3892fac99018b
-31	80	1782573499770361670	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782573499770361670	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782573499770361670	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782573499770361670	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	90	1782573499819386335	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	90	1782573499819386335	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-90	114	1782573499852008000	CMakeFiles/bootloader-complete	374f0d364fed122f
-90	114	1782573499852008000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-90	114	1782573499852008000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-90	114	1782573499852008000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-31	242	1782573499769863462	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-243	281	1782573499981575857	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-281	3992	1782573503717667916	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-281	3992	1782573503717667916	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3992	5354	1782573503730981613	airmic_wr104_classic_combo.elf	e1100c1352253162
-5354	5459	1782573505197851268	.bin_timestamp	997155739f00d327
-5354	5459	1782573505197851268	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5460	5489	1782573505198559434	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5460	5489	1782573505198559434	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-31	80	1782573769857362669	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782573769857362669	bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782573769857362669	bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782573769857362669	bootloader/bootloader.map	9bc3892fac99018b
-31	80	1782573769857362669	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782573769857362669	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782573769857362669	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782573769857362669	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	89	1782573769906560501	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	89	1782573769906560501	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	113	1782573769938483000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	113	1782573769938483000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	113	1782573769938483000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	113	1782573769938483000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	79	1782573790082072373	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	79	1782573790082072373	bootloader/bootloader.elf	9bc3892fac99018b
-29	79	1782573790082072373	bootloader/bootloader.bin	9bc3892fac99018b
-29	79	1782573790082072373	bootloader/bootloader.map	9bc3892fac99018b
-29	79	1782573790082072373	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	79	1782573790082072373	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	79	1782573790082072373	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	79	1782573790082072373	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	89	1782573790132337120	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	89	1782573790132337120	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	111	1782573790163001000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782573790163001000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	111	1782573790163001000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782573790163001000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	226	1782573790081761499	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-226	265	1782573790278422740	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-265	4006	1782573794046142979	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-265	4006	1782573794046142979	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4007	5384	1782573794059343675	airmic_wr104_classic_combo.elf	e1100c1352253162
-5384	5489	1782573795541328983	.bin_timestamp	997155739f00d327
-5384	5489	1782573795541328983	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5489	5518	1782573795541980608	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5489	5518	1782573795541980608	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-28	74	1782573951070358203	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-28	74	1782573951070358203	bootloader/bootloader.elf	9bc3892fac99018b
-28	74	1782573951070358203	bootloader/bootloader.bin	9bc3892fac99018b
-28	74	1782573951070358203	bootloader/bootloader.map	9bc3892fac99018b
-28	74	1782573951070358203	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-28	74	1782573951070358203	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-28	74	1782573951070358203	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-28	74	1782573951070358203	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-74	83	1782573951116424340	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-74	83	1782573951116424340	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-83	104	1782573951146043000	CMakeFiles/bootloader-complete	374f0d364fed122f
-83	104	1782573951146043000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-83	104	1782573951146043000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-83	104	1782573951146043000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-28	203	1782573951069896369	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-203	241	1782573951245700982	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-241	3942	1782573954971282639	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-241	3942	1782573954971282639	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3942	5291	1782573954984727706	airmic_wr104_classic_combo.elf	e1100c1352253162
-5291	5391	1782573956432629571	.bin_timestamp	997155739f00d327
-5291	5391	1782573956432629571	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5391	5420	1782573956433256781	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5391	5420	1782573956433256781	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	80	1782574080436779269	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	80	1782574080436779269	bootloader/bootloader.elf	9bc3892fac99018b
-29	80	1782574080436779269	bootloader/bootloader.bin	9bc3892fac99018b
-29	80	1782574080436779269	bootloader/bootloader.map	9bc3892fac99018b
-29	80	1782574080436779269	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	80	1782574080436779269	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	80	1782574080436779269	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	80	1782574080436779269	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	89	1782574080487474868	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	89	1782574080487474868	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	111	1782574080518103000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782574080518103000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	111	1782574080518103000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782574080518103000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	230	1782574080436233935	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-230	269	1782574080637696998	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-269	4014	1782574084407511501	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-269	4014	1782574084407511501	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4014	5390	1782574084421249558	airmic_wr104_classic_combo.elf	e1100c1352253162
-5390	5496	1782574085903185455	.bin_timestamp	997155739f00d327
-5390	5496	1782574085903185455	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5496	5527	1782574085903829956	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5496	5527	1782574085903829956	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-35	104	1782574177714722706	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-35	104	1782574177714722706	bootloader/bootloader.elf	9bc3892fac99018b
-35	104	1782574177714722706	bootloader/bootloader.bin	9bc3892fac99018b
-35	104	1782574177714722706	bootloader/bootloader.map	9bc3892fac99018b
-35	104	1782574177714722706	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-35	104	1782574177714722706	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-35	104	1782574177714722706	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-35	104	1782574177714722706	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-104	115	1782574177784004999	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-104	115	1782574177784004999	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-116	138	1782574177817081000	CMakeFiles/bootloader-complete	374f0d364fed122f
-116	138	1782574177817081000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-116	138	1782574177817081000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-116	138	1782574177817081000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-35	265	1782574177714234705	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-265	305	1782574177944939248	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-305	4176	1782574181841947581	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-305	4176	1782574181841947581	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4176	5584	1782574181855707770	airmic_wr104_classic_combo.elf	e1100c1352253162
-5585	5689	1782574183367711434	.bin_timestamp	997155739f00d327
-5585	5689	1782574183367711434	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5689	5718	1782574183368367185	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5689	5718	1782574183368367185	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-30	82	1782574279147591615	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-30	82	1782574279147591615	bootloader/bootloader.elf	9bc3892fac99018b
-30	82	1782574279147591615	bootloader/bootloader.bin	9bc3892fac99018b
-30	82	1782574279147591615	bootloader/bootloader.map	9bc3892fac99018b
-30	82	1782574279147591615	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-30	82	1782574279147591615	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-30	82	1782574279147591615	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-30	82	1782574279147591615	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-82	91	1782574279199855174	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-82	91	1782574279199855174	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-91	112	1782574279229460000	CMakeFiles/bootloader-complete	374f0d364fed122f
-91	112	1782574279229460000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-91	112	1782574279229460000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-91	112	1782574279229460000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	231	1782574279147107406	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-231	277	1782574279348794594	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-277	4067	1782574283171763118	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-277	4067	1782574283171763118	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4067	5442	1782574283185134633	airmic_wr104_classic_combo.elf	e1100c1352253162
-5442	5546	1782574284662693649	.bin_timestamp	997155739f00d327
-5442	5546	1782574284662693649	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5546	5574	1782574284663303609	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5546	5574	1782574284663303609	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-31	80	1782574525052050065	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782574525052050065	bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782574525052050065	bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782574525052050065	bootloader/bootloader.map	9bc3892fac99018b
-31	80	1782574525052050065	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-31	80	1782574525052050065	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-31	80	1782574525052050065	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-31	80	1782574525052050065	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	89	1782574525100706912	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	89	1782574525100706912	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	110	1782574525130204000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	110	1782574525130204000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	110	1782574525130204000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	110	1782574525130204000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-30	242	1782574525051468106	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-242	279	1782574525262812513	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-279	3829	1782574528836394125	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-279	3829	1782574528836394125	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3829	5189	1782574528850177974	airmic_wr104_classic_combo.elf	e1100c1352253162
-5189	5293	1782574530313649683	.bin_timestamp	997155739f00d327
-5189	5293	1782574530313649683	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5293	5322	1782574530314253601	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5293	5322	1782574530314253601	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	83	1782574776404307438	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	83	1782574776404307438	bootloader/bootloader.elf	9bc3892fac99018b
-29	83	1782574776404307438	bootloader/bootloader.bin	9bc3892fac99018b
-29	83	1782574776404307438	bootloader/bootloader.map	9bc3892fac99018b
-29	83	1782574776404307438	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	83	1782574776404307438	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	83	1782574776404307438	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	83	1782574776404307438	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-83	93	1782574776458381166	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-83	93	1782574776458381166	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-93	116	1782574776490211000	CMakeFiles/bootloader-complete	374f0d364fed122f
-93	116	1782574776490211000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-93	116	1782574776490211000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-93	116	1782574776490211000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	244	1782574776403826146	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-244	285	1782574776619635600	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-285	4007	1782574780368280200	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-285	4007	1782574780368280200	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4007	5405	1782574780382081799	airmic_wr104_classic_combo.elf	e1100c1352253162
-5405	5509	1782574781883680176	.bin_timestamp	997155739f00d327
-5405	5509	1782574781883680176	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5509	5538	1782574781884541218	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5509	5538	1782574781884541218	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-35	109	1782574937553970510	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-35	109	1782574937553970510	bootloader/bootloader.elf	9bc3892fac99018b
-35	109	1782574937553970510	bootloader/bootloader.bin	9bc3892fac99018b
-35	109	1782574937553970510	bootloader/bootloader.map	9bc3892fac99018b
-35	109	1782574937553970510	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-35	109	1782574937553970510	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-35	109	1782574937553970510	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-35	109	1782574937553970510	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-109	119	1782574937627999661	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-109	119	1782574937627999661	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-119	150	1782574937668007000	CMakeFiles/bootloader-complete	374f0d364fed122f
-119	150	1782574937668007000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-119	150	1782574937668007000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-119	150	1782574937668007000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-34	270	1782574937553555549	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-270	309	1782574937789365212	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-309	4107	1782574941613217547	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-309	4107	1782574941613217547	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4107	5480	1782574941626385542	airmic_wr104_classic_combo.elf	e1100c1352253162
-5480	5584	1782574943102344801	.bin_timestamp	997155739f00d327
-5480	5584	1782574943102344801	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5584	5613	1782574943103001388	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5584	5613	1782574943103001388	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	79	1782575103885692571	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	79	1782575103885692571	bootloader/bootloader.elf	9bc3892fac99018b
-29	79	1782575103885692571	bootloader/bootloader.bin	9bc3892fac99018b
-29	79	1782575103885692571	bootloader/bootloader.map	9bc3892fac99018b
-29	79	1782575103885692571	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	79	1782575103885692571	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	79	1782575103885692571	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	79	1782575103885692571	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-79	89	1782575103935665355	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-79	89	1782575103935665355	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	110	1782575103965580000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	110	1782575103965580000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	110	1782575103965580000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	110	1782575103965580000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	235	1782575103885153818	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-235	273	1782575104090839111	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-273	3988	1782575107830486248	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-273	3988	1782575107830486248	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3988	5394	1782575107844374285	airmic_wr104_classic_combo.elf	e1100c1352253162
-5394	5499	1782575109354689188	.bin_timestamp	997155739f00d327
-5394	5499	1782575109354689188	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5499	5528	1782575109355331942	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5499	5528	1782575109355331942	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-34	100	1782575182533514183	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-34	100	1782575182533514183	bootloader/bootloader.elf	9bc3892fac99018b
-34	100	1782575182533514183	bootloader/bootloader.bin	9bc3892fac99018b
-34	100	1782575182533514183	bootloader/bootloader.map	9bc3892fac99018b
-34	100	1782575182533514183	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-34	100	1782575182533514183	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-34	100	1782575182533514183	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-34	100	1782575182533514183	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-100	110	1782575182599885352	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-100	110	1782575182599885352	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-110	132	1782575182630991000	CMakeFiles/bootloader-complete	374f0d364fed122f
-110	132	1782575182630991000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-110	132	1782575182630991000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-110	132	1782575182630991000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-33	242	1782575182533012972	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-242	281	1782575182742134951	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-281	4064	1782575186550543978	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-281	4064	1782575186550543978	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4064	5453	1782575186564018637	airmic_wr104_classic_combo.elf	e1100c1352253162
-5453	5560	1782575188059036996	.bin_timestamp	997155739f00d327
-5453	5560	1782575188059036996	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5560	5590	1782575188059652791	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5560	5590	1782575188059652791	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-28	83	1782575393905946407	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-28	83	1782575393905946407	bootloader/bootloader.elf	9bc3892fac99018b
-28	83	1782575393905946407	bootloader/bootloader.bin	9bc3892fac99018b
-28	83	1782575393905946407	bootloader/bootloader.map	9bc3892fac99018b
-28	83	1782575393905946407	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-28	83	1782575393905946407	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-28	83	1782575393905946407	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-28	83	1782575393905946407	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-83	93	1782575393960825676	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-83	93	1782575393960825676	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-93	114	1782575393991303000	CMakeFiles/bootloader-complete	374f0d364fed122f
-93	114	1782575393991303000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-93	114	1782575393991303000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-93	114	1782575393991303000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-28	230	1782575393905642530	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-231	269	1782575394108369097	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-269	3927	1782575397790918576	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-269	3927	1782575397790918576	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-3927	5315	1782575397805235199	airmic_wr104_classic_combo.elf	e1100c1352253162
-5316	5414	1782575399291255964	.bin_timestamp	997155739f00d327
-5316	5414	1782575399291255964	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5414	5443	1782575399291891551	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5414	5443	1782575399291891551	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-30	80	1782575582694895789	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-30	80	1782575582694895789	bootloader/bootloader.elf	9bc3892fac99018b
-30	80	1782575582694895789	bootloader/bootloader.bin	9bc3892fac99018b
-30	80	1782575582694895789	bootloader/bootloader.map	9bc3892fac99018b
-30	80	1782575582694895789	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-30	80	1782575582694895789	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-30	80	1782575582694895789	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-30	80	1782575582694895789	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-80	89	1782575582744559612	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-80	89	1782575582744559612	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-89	111	1782575582775562000	CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782575582775562000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-89	111	1782575582775562000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-89	111	1782575582775562000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	232	1782575582693835824	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-232	275	1782575582896893393	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-275	4086	1782575586737829230	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-275	4086	1782575586737829230	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4086	5459	1782575586750975429	airmic_wr104_classic_combo.elf	e1100c1352253162
-5459	5566	1782575588230035489	.bin_timestamp	997155739f00d327
-5459	5566	1782575588230035489	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5566	5598	1782575588230684867	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5566	5598	1782575588230684867	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-29	82	1782575942267907493	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	82	1782575942267907493	bootloader/bootloader.elf	9bc3892fac99018b
-29	82	1782575942267907493	bootloader/bootloader.bin	9bc3892fac99018b
-29	82	1782575942267907493	bootloader/bootloader.map	9bc3892fac99018b
-29	82	1782575942267907493	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
-29	82	1782575942267907493	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
-29	82	1782575942267907493	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
-29	82	1782575942267907493	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
-82	91	1782575942320522987	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-82	91	1782575942320522987	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
-91	113	1782575942351571000	CMakeFiles/bootloader-complete	374f0d364fed122f
-91	113	1782575942351571000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-91	113	1782575942351571000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
-91	113	1782575942351571000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
-29	237	1782575942267448325	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
-238	278	1782575942476365344	esp-idf/main/libmain.a	4d1b941cd84aa3c5
-278	4026	1782575946251627413	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-278	4026	1782575946251627413	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
-4026	5394	1782575946264911183	airmic_wr104_classic_combo.elf	e1100c1352253162
-5394	5497	1782575947735402123	.bin_timestamp	997155739f00d327
-5394	5497	1782575947735402123	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
-5497	5526	1782575947736042499	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
-5497	5526	1782575947736042499	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
+3763	5110	1782737455983026199	airmic_wr104_classic_combo.elf	e1100c1352253162
+5110	5209	1782737457428396918	.bin_timestamp	997155739f00d327
+5110	5209	1782737457428396918	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
+5209	5236	1782737457428964459	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
+5209	5236	1782737457428964459	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
+17	2786	1782737614928887456	build.ninja	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/xtensa/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_gpio/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_pm/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/3rdparty/everest/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/3rdparty/p256-m/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/bootloader/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/partition_table/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_app_format/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_bootloader_format/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/app_update/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_partition/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/efuse/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/bootloader_support/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_mm/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/spi_flash/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/port/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_common/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_rom/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/hal/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/log/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/heap/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/soc/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_security/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_hw_support/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/freertos/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/newlib/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/newlib/src/port/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/pthread/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/cxx/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_timer/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_gptimer/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_ringbuf/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_uart/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/app_trace/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_event/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/nvs_flash/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_phy/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_vfs_console/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/vfs/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/lwip/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_netif_stack/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_netif/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/wpa_supplicant/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_coex/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_wifi/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_spi/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_gdbstub/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/bt/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/unity/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/cmock/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/console/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_pcnt/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_i2s/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/sdmmc/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_sdspi/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_sdio/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_dac/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_bitscrambler/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_rmt/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_tsens/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_sdm/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_i2c/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_ledc/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_parlio/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_twai/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/driver/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/http_parser/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp-tls/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_adc/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_isp/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_cam/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_psram/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_jpeg/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_ppa/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_driver_touch_sens/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_eth/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_hid/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/tcp_transport/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_http_client/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_http_server/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_https_ota/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_https_server/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_lcd/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/protobuf-c/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/protocomm/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_local_ctrl/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/espcoredump/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/wear_levelling/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/fatfs/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/idf_test/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/ieee802154/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/json/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mqtt/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/nvs_sec_provider/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/openthread/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/perfmon/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/rt/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/spiffs/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/ulp/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/usb/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/wifi_provisioning/cmake_install.cmake	44d7020aa3bffbec
+17	2786	1782737614928887456	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/main/cmake_install.cmake	44d7020aa3bffbec
+27	87	1782737614986267217	bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
+27	87	1782737614986267217	bootloader/bootloader.elf	9bc3892fac99018b
+27	87	1782737614986267217	bootloader/bootloader.bin	9bc3892fac99018b
+27	87	1782737614986267217	bootloader/bootloader.map	9bc3892fac99018b
+27	87	1782737614986267217	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	9bc3892fac99018b
+27	87	1782737614986267217	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf	9bc3892fac99018b
+27	87	1782737614986267217	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.bin	9bc3892fac99018b
+27	87	1782737614986267217	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.map	9bc3892fac99018b
+87	96	1782737615046119266	bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
+87	96	1782737615046119266	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install	f8a17daf0f01bf0d
+96	118	1782737615076512000	CMakeFiles/bootloader-complete	374f0d364fed122f
+96	118	1782737615076512000	bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
+96	118	1782737615076512000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete	374f0d364fed122f
+96	118	1782737615076512000	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-done	374f0d364fed122f
+27	127	1782737614985938468	esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj	95fce5e18d47ec8b
+127	164	1782737615085815770	esp-idf/esp_app_format/libesp_app_format.a	6130713f4b64a944
+164	287	1782737615122660322	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	db8b9f479798be11
+287	316	1782737615245750245	esp-idf/main/libmain.a	4d1b941cd84aa3c5
+317	3800	1782737618745854144	esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
+317	3800	1782737618745854144	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld	2c94d007a87abc71
+3800	5136	1782737618758456244	airmic_wr104_classic_combo.elf	e1100c1352253162
+5136	5234	1782737620192573944	.bin_timestamp	997155739f00d327
+5136	5234	1782737620192573944	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/.bin_timestamp	997155739f00d327
+5234	5262	1782737620193137860	esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788
+5234	5262	1782737620193137860	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esptool_py/CMakeFiles/app_check_size	58af8e42e35ed788

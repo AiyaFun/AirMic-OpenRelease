@@ -25,7 +25,7 @@
 | --- | --- | --- |
 | Backspace | GPIO32 | 按键一端接 GPIO32，另一端接 3V3 |
 | Enter | GPIO27 | 按键一端接 GPIO27，另一端接 3V3 |
-| 右 Option | GPIO14 | 按键一端接 GPIO14，另一端接 3V3 |
+| 右 Option | GPIO12 | 按键一端接 GPIO12，另一端接 3V3 |
 
 说明：
 
@@ -39,9 +39,9 @@
 | --- | --- |
 | VDD / 3V3 | 3V3 |
 | GND | GND |
-| SCK / BCLK | GPIO26 |
-| WS / LRCL | GPIO25 |
-| SD / DOUT | GPIO33 |
+| SCK / BCLK | GPIO17 |
+| WS / LRCL | GPIO4 |
+| SD / DOUT | GPIO0 |
 | L/R | GND |
 
 注意：
@@ -163,7 +163,7 @@
 麦克风没有声音：
 
 - 确认 INMP441 的 VDD 接 3V3。
-- 确认 BCLK=GPIO26，WS=GPIO25，DOUT=GPIO33。
+- 确认 BCLK=GPIO17，WS=GPIO4，DOUT=GPIO0。
 - 确认系统输入设备选择 `AirMic WR104`。
 
 设备休眠后不见了：

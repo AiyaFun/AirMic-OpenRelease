@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "airmic_wr104_classic_combo",
-    "project_version":    "wr1.0.4",
+    "project_version":    "wr104-2026-06-29-new-board",
     "project_path":       "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo",
     "idf_path":           "/Users/jiang/esp/esp-idf",
     "build_dir":          "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build",

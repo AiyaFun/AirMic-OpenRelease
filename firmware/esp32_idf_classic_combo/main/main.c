@@ -1,7 +1,7 @@
 // AirMic WR104 ESP-IDF Classic Bluetooth combo experiment
 // Board: ESP32-WROOM-32 / ESP32-WROOM-DA
 // Goal: one Classic Bluetooth device name with HFP microphone + Classic HID keyboard.
-// Firmware version: wr104-2026-06-27-stable
+// Firmware version: wr104-2026-06-29-new-board
 
 #include <inttypes.h>
 #include <stdbool.h>
@@ -30,12 +30,12 @@
 #include "freertos/stream_buffer.h"
 #include "freertos/task.h"
 
-#define FIRMWARE_VERSION "wr104-2026-06-27-stable"
+#define FIRMWARE_VERSION "wr104-2026-06-29-new-board"
 #define BT_DEVICE_NAME "AirMic WR104"
 
-#define I2S_BCLK_GPIO 26
-#define I2S_WS_GPIO 25
-#define I2S_SD_GPIO 33
+#define I2S_BCLK_GPIO 17
+#define I2S_WS_GPIO 4
+#define I2S_SD_GPIO 0
 #define I2S_PORT I2S_NUM_0
 
 #define CVSD_RATE_HZ 8000
@@ -102,7 +102,7 @@
 #define LIMITER_ABS 28000
 
 static const char *TAG = "AirMicIDF";
-static const gpio_num_t KEY_PINS[] = {GPIO_NUM_32, GPIO_NUM_27, GPIO_NUM_14};
+static const gpio_num_t KEY_PINS[] = {GPIO_NUM_32, GPIO_NUM_27, GPIO_NUM_12};
 static const char *KEY_NAMES[] = {"BACKSPACE", "ENTER", "RIGHT_OPTION"};
 static const uint8_t KEY_COUNT = sizeof(KEY_PINS) / sizeof(KEY_PINS[0]);
 
@@ -1238,7 +1238,7 @@ void app_main(void) {
     ESP_ERROR_CHECK(ret);
 
     ESP_LOGI(TAG, "AirMic WR104 ESP-IDF Classic combo %s", FIRMWARE_VERSION);
-    ESP_LOGI(TAG, "Pins: key32/backspace key27/enter key14/right-option; INMP441 BCLK=26 WS=25 DOUT=33");
+    ESP_LOGI(TAG, "Pins: key32/backspace key27/enter key12/right-option; INMP441 BCLK=17 WS=4 DOUT=0");
     uint32_t boot_ms = millis_now();
     last_key_activity_ms = boot_ms;
     last_audio_activity_ms = boot_ms;
