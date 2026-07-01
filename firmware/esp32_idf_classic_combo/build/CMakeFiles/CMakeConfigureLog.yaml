@@ -46,13 +46,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/git"
       - "/Users/jiang/esp/esp-idf/components/partition_table/git"
@@ -96,14 +96,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -148,13 +148,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/uname"
       - "/Users/jiang/esp/esp-idf/components/partition_table/uname"
@@ -198,14 +198,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "message-v1"
@@ -261,13 +261,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/ninja-build"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/ninja"
@@ -325,14 +325,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -378,13 +378,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
@@ -418,14 +418,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -482,14 +482,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "message-v1"
@@ -512,7 +512,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/4.3.4/CompilerIdC/a.out
+        /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/4.3.4/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -559,13 +559,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ar"
     search_context:
       ENV{PATH}:
@@ -594,14 +594,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -648,13 +648,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib"
     search_context:
       ENV{PATH}:
@@ -683,14 +683,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -737,13 +737,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-strip"
     search_context:
       ENV{PATH}:
@@ -772,14 +772,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -826,13 +826,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-ld"
     search_context:
       ENV{PATH}:
@@ -861,14 +861,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -915,13 +915,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-nm"
     search_context:
       ENV{PATH}:
@@ -950,14 +950,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1004,13 +1004,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump"
     search_context:
       ENV{PATH}:
@@ -1039,14 +1039,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1093,13 +1093,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objcopy"
     search_context:
       ENV{PATH}:
@@ -1128,14 +1128,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1182,13 +1182,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-readelf"
     search_context:
       ENV{PATH}:
@@ -1217,14 +1217,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1271,13 +1271,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-dlltool"
@@ -1302,13 +1302,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-dlltool"
       - "/pkg/env/global/bin/xtensa-esp32-elf-dlltool"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-dlltool"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-dlltool"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-dlltool"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-dlltool"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-dlltool"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/dlltool"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/dlltool"
       - "/Users/jiang/esp/esp-idf/components/partition_table/dlltool"
@@ -1332,13 +1332,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/pkg/env/global/bin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/dlltool"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/dlltool"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/dlltool"
       - "/opt/homebrew/opt/node@20/bin/dlltool"
       - "/Users/jiang/.antigravity/antigravity/bin/dlltool"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/dlltool"
       - "/Users/jiang/Library/Python/3.9/bin/dlltool"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/dlltool"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -1367,14 +1367,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1421,13 +1421,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-addr2line"
     search_context:
       ENV{PATH}:
@@ -1456,14 +1456,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1510,13 +1510,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-tapi"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-tapi"
@@ -1541,13 +1541,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-tapi"
       - "/pkg/env/global/bin/xtensa-esp32-elf-tapi"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-tapi"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-tapi"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-tapi"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-tapi"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-tapi"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-tapi"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-tapi"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-tapi"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-tapi"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/tapi"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/tapi"
       - "/Users/jiang/esp/esp-idf/components/partition_table/tapi"
@@ -1571,13 +1571,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/pkg/env/global/bin/tapi"
       - "/Library/Apple/usr/bin/tapi"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/tapi"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/tapi"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/tapi"
       - "/opt/homebrew/opt/node@20/bin/tapi"
       - "/Users/jiang/.antigravity/antigravity/bin/tapi"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/tapi"
       - "/Users/jiang/Library/Python/3.9/bin/tapi"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/tapi"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1606,14 +1606,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1662,13 +1662,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1693,13 +1693,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14.2"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-14.2"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14"
@@ -1723,13 +1723,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar14"
@@ -1753,13 +1753,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar14"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1788,14 +1788,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -1844,13 +1844,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -1875,13 +1875,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14"
@@ -1905,13 +1905,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib14"
@@ -1935,13 +1935,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib14"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1970,14 +1970,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -2023,13 +2023,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-g++"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-g++"
@@ -2063,14 +2063,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -2127,14 +2127,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "message-v1"
@@ -2157,7 +2157,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/4.3.4/CompilerIdCXX/a.out
+        /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/4.3.4/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -2206,13 +2206,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14.2"
@@ -2237,13 +2237,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14.2"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-14.2"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-14"
@@ -2267,13 +2267,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar14"
@@ -2297,13 +2297,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar14"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -2332,14 +2332,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -2388,13 +2388,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -2419,13 +2419,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-14"
@@ -2449,13 +2449,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib14"
@@ -2479,13 +2479,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib14"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib14"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib14"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -2514,14 +2514,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -2567,13 +2567,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc"
@@ -2607,14 +2607,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "message-v1"
@@ -2677,13 +2677,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
@@ -2708,13 +2708,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ar-"
@@ -2738,13 +2738,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ar-"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ar-"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
       ENV{PATH}:
@@ -2773,14 +2773,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "find-v1"
@@ -2829,13 +2829,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/pkg/env/global/bin/"
       - "/Library/Apple/usr/bin/"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/"
       - "/opt/homebrew/opt/node@20/bin/"
       - "/Users/jiang/.antigravity/antigravity/bin/"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/"
       - "/Users/jiang/Library/Python/3.9/bin/"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
@@ -2860,13 +2860,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/esp/esp-idf/components/partition_table/xtensa-esp32-elf-gcc-ranlib-"
@@ -2890,13 +2890,13 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/pkg/env/global/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.antigravity-ide/antigravity-ide/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/opt/node@20/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.antigravity/antigravity/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/.nvm/versions/node/v24.15.0/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/jiang/Library/Python/3.9/bin/xtensa-esp32-elf-gcc-ranlib-"
-      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64/xtensa-esp32-elf-gcc-ranlib-"
     found: "/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -2925,14 +2925,14 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/Library/Apple/usr/bin"
-        - "/Users/jiang/.codex/tmp/arg0/codex-arg0QseTCg"
+        - "/Users/jiang/.codex/tmp/arg0/codex-arg0yE8G0T"
         - "/Users/jiang/.antigravity-ide/antigravity-ide/bin"
         - "/opt/homebrew/opt/node@20/bin"
         - "/Users/jiang/.antigravity/antigravity/bin"
         - "/Users/jiang/.nvm/versions/node/v24.15.0/bin"
         - "/opt/homebrew/opt/python@3.11/libexec/bin"
         - "/Users/jiang/Library/Python/3.9/bin"
-        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.41415-darwin-arm64/bin/macos-aarch64"
+        - "/Users/jiang/.vscode/extensions/openai.chatgpt-26.5623.61825-darwin-arm64/bin/macos-aarch64"
         - "/Users/jiang/Library/Python/3.9/bin"
   -
     kind: "try_compile-v1"
@@ -2944,8 +2944,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-RiNscZ"
-      binary: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-RiNscZ"
+      source: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-pqFNXK"
+      binary: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-pqFNXK"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
@@ -2956,10 +2956,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-RiNscZ'
+        Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-pqFNXK'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e27d3
-        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_57887
+        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -2967,8 +2967,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e27d3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccsExhOm.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_57887.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cctwRJYK.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -2985,12 +2985,12 @@ events:
          /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: af69fd9f9a101617223bab54c4450538
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccsExhOm.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cctwRJYK.s
         COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -o cmTC_e27d3   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -o cmTC_57887   && :
         Using built-in specs.
         COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3001,10 +3001,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e27d3' '-dumpdir' 'cmTC_e27d3.'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cceAn1Mm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_e27d3 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_57887' '-dumpdir' 'cmTC_57887.'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccrhnmyw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_57887 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e27d3' '-dumpdir' 'cmTC_e27d3.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_57887' '-dumpdir' 'cmTC_57887.'
         
       exitCode: 0
   -
@@ -3039,10 +3039,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-RiNscZ']
+        ignore line: [Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-pqFNXK']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e27d3]
-        ignore line: [[1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_57887]
+        ignore line: [[1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -3050,8 +3050,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/']
-        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e27d3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccsExhOm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/']
+        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_57887.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cctwRJYK.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3068,12 +3068,12 @@ events:
         ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: af69fd9f9a101617223bab54c4450538]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/']
-        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccsExhOm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/']
+        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cctwRJYK.s]
         ignore line: [COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -o cmTC_e27d3   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -o cmTC_57887   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3084,13 +3084,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e27d3' '-dumpdir' 'cmTC_e27d3.']
-        link line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cceAn1Mm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_e27d3 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_57887' '-dumpdir' 'cmTC_57887.']
+        link line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccrhnmyw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_57887 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cceAn1Mm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccrhnmyw.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3099,7 +3099,7 @@ events:
           arg [--sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e27d3] ==> ignore
+          arg [cmTC_57887] ==> ignore
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3108,7 +3108,7 @@ events:
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_e27d3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_57887.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3116,7 +3116,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_e27d3' '-dumpdir' 'cmTC_e27d3.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_57887' '-dumpdir' 'cmTC_57887.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -3143,8 +3143,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8HmjN"
-      binary: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8HmjN"
+      source: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-LSfbbw"
+      binary: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-LSfbbw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3156,10 +3156,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8HmjN'
+        Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-LSfbbw'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f4442
-        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5036b
+        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3167,8 +3167,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f4442.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cc8hKnmy.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5036b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccV7ay2G.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3191,12 +3191,12 @@ events:
          /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: f95fb27b9d6b101b60d0ece4239a97f9
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cc8hKnmy.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccV7ay2G.s
         COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f4442   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5036b   && :
         Using built-in specs.
         COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3207,10 +3207,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_f4442' '-dumpdir' 'cmTC_f4442.'
-         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccc9J6nW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_f4442 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_5036b' '-dumpdir' 'cmTC_5036b.'
+         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cckfbgsG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_5036b -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_f4442' '-dumpdir' 'cmTC_f4442.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_5036b' '-dumpdir' 'cmTC_5036b.'
         
       exitCode: 0
   -
@@ -3251,10 +3251,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8HmjN']
+        ignore line: [Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-LSfbbw']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f4442]
-        ignore line: [[1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5036b]
+        ignore line: [[1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3262,8 +3262,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/']
-        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f4442.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cc8hKnmy.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/']
+        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5036b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccV7ay2G.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3286,12 +3286,12 @@ events:
         ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f95fb27b9d6b101b60d0ece4239a97f9]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/']
-        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cc8hKnmy.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/']
+        ignore line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccV7ay2G.s]
         ignore line: [COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f4442   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_5036b   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3302,13 +3302,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_f4442' '-dumpdir' 'cmTC_f4442.']
-        link line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccc9J6nW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_f4442 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_5036b' '-dumpdir' 'cmTC_5036b.']
+        link line: [ /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cckfbgsG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_5036b -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//ccc9J6nW.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/q_/n9wtg11500q0cjzfml91r6y40000gn/T//cckfbgsG.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3317,7 +3317,7 @@ events:
           arg [--sysroot=/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f4442] ==> ignore
+          arg [cmTC_5036b] ==> ignore
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3326,7 +3326,7 @@ events:
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_f4442.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_5036b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3336,7 +3336,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_f4442' '-dumpdir' 'cmTC_f4442.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_5036b' '-dumpdir' 'cmTC_5036b.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -3364,8 +3364,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-fVf3fG"
-      binary: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-fVf3fG"
+      source: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Ubs5pq"
+      binary: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Ubs5pq"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
@@ -3376,17 +3376,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-fVf3fG'
+        Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Ubs5pq'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_95667
-        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_95667.dir/src.c.obj -c '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-fVf3fG/src.c'
-        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_95667.dir/src.c.obj -o cmTC_95667   && :
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_95667.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_18f27
+        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_18f27.dir/src.c.obj -c '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Ubs5pq/src.c'
+        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_18f27.dir/src.c.obj -o cmTC_18f27   && :
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_18f27.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0
@@ -3400,8 +3400,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-vYiJ2Z"
-      binary: "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-vYiJ2Z"
+      source: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8Bjdx"
+      binary: "/Users/jiang/Downloads/01\u9879\u76ee/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8Bjdx"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
@@ -3412,11 +3412,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-vYiJ2Z'
+        Change Dir: '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8Bjdx'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b94ab
-        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_b94ab.dir/src.c.obj -c '/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-vYiJ2Z/src.c'
-        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_b94ab.dir/src.c.obj -o cmTC_b94ab   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_dab74
+        [1/2] /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_dab74.dir/src.c.obj -c '/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/CMakeScratch/TryCompile-Y8Bjdx/src.c'
+        [2/2] : && /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_dab74.dir/src.c.obj -o cmTC_dab74   && :
         /Users/jiang/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0

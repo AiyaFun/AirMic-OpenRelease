@@ -1,4 +1,4 @@
-/* * Data converted from /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

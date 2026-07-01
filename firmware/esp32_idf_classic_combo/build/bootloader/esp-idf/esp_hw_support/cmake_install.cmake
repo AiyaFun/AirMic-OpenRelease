@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/install_local_manifest.txt"
+  file(WRITE "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esp_hw_support/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

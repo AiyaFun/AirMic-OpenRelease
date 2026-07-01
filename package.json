@@ -1,0 +1,8 @@
+{
+  "name": "airmic-keypad",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "airshua": "bash scripts/airshua.sh"
+  }
+}

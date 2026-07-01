@@ -1,176 +1,240 @@
 # ninja log v7
-4	55	1782572226313432032	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj	5a1bbd1c86372393
-4	64	1782572226313579241	esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj	25af17974ec0351f
-4	76	1782572226313034783	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj	ebe7db950dfc6c37
-12	78	1782572226321142359	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	d69173769152b67c
-6	81	1782572226314936948	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj	2d72600f0f6b46df
-3	102	1782572226312574033	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj	4780c93a4e795e7e
-5	102	1782572226313729866	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj	bdade428033c20f6
-7	122	1782572226316259613	esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj	23836ecbcea4cbc5
-81	124	1782572226390142173	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	5683a392b0ea62e2
-4	124	1782572226312862116	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj	5dd2782c644f827a
-8	131	1782572226317631154	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	d66be5301d058705
-55	144	1782572226364497237	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	6dc957ff7010eb9c
-4	147	1782572226313277533	esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj	95c286798dedf196
-76	147	1782572226385264260	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	183c4c0859bb7a01
-78	172	1782572226386886051	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj	c049c793ca14f761
-124	194	1782572226433177426	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	ab9b2cd0576b2f8c
-124	202	1782572226433544009	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj	2bdcc14bee6cbb13
-102	204	1782572226411008113	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	7a99a29a435c6421
-102	223	1782572226411339404	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	36adff73ffc9f6d6
-147	232	1782572226456044156	esp-idf/log/liblog.a	30c9018658614792
-122	234	1782572226431018678	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj	5383b1d7d380e510
-147	266	1782572226456347739	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj	159cb485cb39171e
-202	274	1782572226511314273	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj	25e52a530d80025c
-204	279	1782572226513548605	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	3e6307ddc6a6af6e
-223	287	1782572226532017963	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj	945b562ce08984fe
-144	293	1782572226453203617	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj	a5d3cde81d125c5d
-232	310	1782572226540856914	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj	fdccc73ed306d235
-194	365	1782572226502827239	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj	3fc9de1f1013f171
-274	378	1782572226583036710	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	9f21cea7c498231
-172	385	1782572226481039425	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj	199c77be12d674db
-10	388	1782572226319254902	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj	253e9daa6b5dde23
-235	409	1782572226544164161	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj	8f0c22bfceabe9d1
-287	410	1782572226595985115	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj	36918ea6c0137016
-293	414	1782572226602386484	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	dbcc268d959ba72d
-266	420	1782572226575684925	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	5ad2b738faabbc95
-64	432	1782572226373382604	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	d9726132698a9ad0
-311	441	1782572226619807010	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	ead3e7d88d4d85e2
-378	445	1782572226687525992	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	b97c602f26b0869d
-365	456	1782572226674403003	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	60dabb3a29a8408a
-386	471	1782572226694752027	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	4706fb3a87c6e8ef
-388	474	1782572226697421400	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	edf8e07c00b1f227
-410	486	1782572226719680338	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	88e1f13e6a419c15
-414	506	1782572226723620126	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj	ec07312f6b6076b8
-432	519	1782572226740944444	esp-idf/esp_rom/libesp_rom.a	7b5858921c0a8fff
-279	529	1782572226588584413	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	2649caf1526aa28d
-471	545	1782572226780069160	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	91b30d378970de32
-409	546	1782572226718468923	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	f349db7e502b89cc
-441	549	1782572226750651519	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	477f51246ee3c7ca
-486	566	1782572226794787313	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj	3c9b57caec73fdc0
-519	581	1782572226828441033	esp-idf/esp_common/libesp_common.a	f14809e7e4329de6
-529	593	1782572226838118483	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	6000c3c5f48e1509
-549	596	1782572226858604215	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj	bbb3405139438fe8
-506	599	1782572226814792045	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	167b0102c84a6238
-131	610	1782572226439993545	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj	c3a32ff95e7af6dd
-546	615	1782572226855816759	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	736611feb93df01a
-545	624	1782572226854146594	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	783b6054b19d955a
-445	643	1782572226754299182	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj	356f1fb844f4f088
-593	651	1782572226902154676	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	565f4050f23f5351
-596	662	1782572226905464965	esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj	9e1e1c61e6657b6
-581	667	1782572226890384811	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	44649ec2989be86b
-615	674	1782572226924185240	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	b4c175c1869a17e5
-599	687	1782572226908552920	esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj	13762cfe37b322f6
-624	692	1782572226933089899	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	91688d3eb5bbadfc
-566	697	1782572226874792659	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj	fb824a946914f239
-610	708	1782572226919281286	esp-idf/esp_hw_support/libesp_hw_support.a	aac79d49746bb0f
-644	718	1782572226952728423	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj	f776633ac5766fe
-697	739	1782572227005977334	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj	2e0ddad03dc5b25e
-692	746	1782572227001470129	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	f4af25a241b32d1e
-420	750	1782572226729251746	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	a02f7c1ebe9f03f2
-667	752	1782572226976558318	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj	666384f25738ceba
-687	752	1782572226996408842	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	20c340c19a8c3489
-718	767	1782572227027271273	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj	b6cc88a82b804b1
-708	768	1782572227016762783	esp-idf/esp_system/libesp_system.a	d5f0018e4e19fc17
-651	773	1782572226960318416	esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj	b3fc6e7631427e8d
-739	789	1782572227047898171	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj	367d0962bc9cc61e
-746	796	1782572227055414873	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj	b3dd5723bb16b1ec
-752	800	1782572227061190326	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj	329b1c3f8a17d87e
-750	807	1782572227059451703	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj	71d23b4fd23c579d
-753	808	1782572227061736701	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj	f52a953882c9d3be
-767	816	1782572227076012396	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj	4c79bac67ee24563
-773	821	1782572227081863475	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj	49314e1dd3bc267e
-662	839	1782572226971651531	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	2f55cefe7205e2b9
-796	839	1782572227105339745	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj	a97c93cfd16bda03
-789	843	1782572227098655793	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj	a9bb5a5cb5a8bad1
-800	848	1782572227109229534	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj	699115ac5af37a75
-769	849	1782572227077749562	esp-idf/efuse/libefuse.a	fa7cb5ba9da42e8d
-808	860	1782572227116945402	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj	dff271c67ba2e756
-807	861	1782572227116620694	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj	85ae5f80ca15efb7
-816	866	1782572227125691894	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj	9a6211e3beb0476
-821	870	1782572227130745306	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj	d02f597331bca594
-844	882	1782572227152831245	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj	b7e16b649ca36626
-839	897	1782572227148083083	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj	ddff87004c2203e1
-839	898	1782572227148674457	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj	430c0fec5ef9124f
-860	901	1782572227169456230	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj	2fb8a88844a5e74b
-848	902	1782572227157523283	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj	96b0fc0df7f94a64
-849	908	1782572227157810741	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj	9d3e3294697fda54
-870	913	1782572227179475638	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj	b75d17e6769d7490
-898	913	1782572227221354809	project_elf_src_esp32.c	fa5e4db347b5f1b6
-898	913	1782572227221354809	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/project_elf_src_esp32.c	fa5e4db347b5f1b6
-861	916	1782572227170573896	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj	e7ccd1200a8fc220
-882	927	1782572227191322044	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	2b5b206c2999dd16
-866	928	1782572227175053600	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj	21c721e9836f9347
-456	938	1782572226764996131	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	f82d61abc5eed66
-897	952	1782572227206535197	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	23bef25c7986cb6a
-913	955	1782572227222561641	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj	6397d6e47f176320
-474	955	1782572226783578906	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	a28c3e4b854c4e9a
-902	958	1782572227210747610	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	8a649fd5881250
-955	1045	1782572227264138938	esp-idf/bootloader_support/libbootloader_support.a	e0c446bacbc6af95
-1045	1082	1782572227353831566	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	e822e2c8709daae8
-674	1107	1782572226983020854	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	d9321115a4f77c42
-1082	1117	1782572227390925367	esp-idf/spi_flash/libspi_flash.a	8feea09b9bf867e8
-1117	1163	1782572227426091627	esp-idf/hal/libhal.a	50e85b2cee132899
-1163	1196	1782572227472191003	esp-idf/micro-ecc/libmicro-ecc.a	a551e251e74dee1
-1196	1278	1782572227505451556	esp-idf/soc/libsoc.a	10c798de7bc27bff
-1278	1316	1782572227587523067	esp-idf/xtensa/libxtensa.a	5f19d34d1f09ab54
-1316	1349	1782572227625651741	esp-idf/main/libmain.a	7fb3fb83534a7e33
-1349	1400	1782572227658380796	bootloader.elf	f2714f0119d3feb2
-1400	1497	1782572227805254623	.bin_timestamp	b3b02574e3c1e0ac
-1400	1497	1782572227805254623	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/.bin_timestamp	b3b02574e3c1e0ac
-1497	1528	1782572227805924581	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-1497	1528	1782572227805924581	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782572339525880356	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782572339525880356	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782572608674149868	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782572608674149868	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	37	1782573159485764709	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	37	1782573159485764709	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782573499787501238	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782573499787501238	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782573769873486988	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782573769873486988	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	37	1782573790098378234	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	37	1782573790098378234	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	34	1782573951085824777	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	34	1782573951085824777	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	36	1782574080453648455	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	36	1782574080453648455	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	50	1782574177737469206	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	50	1782574177737469206	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	38	1782574279165093343	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	38	1782574279165093343	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782574525069210751	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782574525069210751	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	39	1782574776422283875	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	39	1782574776422283875	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	60	1782574937570619651	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	60	1782574937570619651	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	36	1782575103902955128	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	36	1782575103902955128	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	54	1782575182549185772	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	54	1782575182549185772	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	41	1782575393921954206	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	41	1782575393921954206	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	36	1782575582711395215	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	36	1782575582711395215	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782575942287733272	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	35	1782575942287733272	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	39	1782576007766792522	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	39	1782576007766792522	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-7	43	1782643633458961796	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-7	43	1782643633458961796	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782645760981459303	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782645760981459303	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782646119595498816	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782646119595498816	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782736484438213086	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782736484438213086	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782737222904851940	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	34	1782737222904851940	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782737377370997406	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-5	35	1782737377370997406	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	33	1782737452262321404	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-4	33	1782737452262321404	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-8	45	1782737615007865466	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
-8	45	1782737615007865466	/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	502b4a1bf7772d85
+7	72	1782825356283704226	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/util.c.obj	6c79979512c84ac4
+9	96	1782825356285406040	esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj	5291f66d0a2195e3
+17	100	1782825356294145865	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	585b0905af604ab2
+10	121	1782825356286949561	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj	aee66efbd6d71efb
+6	122	1782825356282964966	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_lock.c.obj	ab32200a5de728ec
+5	137	1782825356282361416	esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj	83afe31eaba71de6
+10	144	1782825356286767933	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj	a3e86bda7707c0de
+6	147	1782825356282700129	esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj	b23a8bc16ef0abec
+11	149	1782825356288177119	esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj	945ec912f9cf984
+122	165	1782825356398862049	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	e124b59d384bcd7d
+100	167	1782825356377311471	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	84c9d06bb04b87ac
+72	179	1782825356348792675	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	12a2c5d7790677be
+121	181	1782825356397833160	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj	3697cc8ceecfb710
+13	189	1782825356290275480	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	dd252e0a83433eb0
+147	218	1782825356423873840	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj	dcb1052ff53d493
+149	233	1782825356425743781	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	63a42cd362ddbf2d
+165	238	1782825356442191500	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj	a990d67168b9f7ee
+7	267	1782825356283486348	esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj	8d65c11554ea27d2
+137	274	1782825356414015709	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	370a146d9c17a026
+233	298	1782825356509562438	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj	1103d95739a1bdc9
+239	312	1782825356515407141	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	8a8ee26668fce2ff
+181	322	1782825356457819167	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj	455465c064104bd8
+144	328	1782825356420687964	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	79794dccd1a90c02
+274	344	1782825356550944071	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj	40ea1909b4090cc2
+267	352	1782825356543476181	esp-idf/log/liblog.a	30c9018658614792
+15	353	1782825356292248506	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj	c100880398f222b1
+300	377	1782825356576543370	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj	dc6d46e19ec574d1
+218	400	1782825356494658073	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj	8fce7097c7877da4
+190	407	1782825356466396739	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj	fa77edfcc0723ef6
+179	418	1782825356455898891	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj	f6647e37db761386
+328	421	1782825356605327420	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	c9a537302dc95338
+407	471	1782825356684266095	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	8175bcfe911616a
+400	480	1782825356677282627	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	52d6528cfea6e46e
+322	487	1782825356599168588	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	7a73d28c1c8147a0
+352	488	1782825356628691022	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj	84e86d97fb07d1e5
+312	491	1782825356589212997	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj	6eb3dcf959489680
+418	492	1782825356694936278	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	dbc1e58c1770ab85
+421	494	1782825356697718399	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	d5c0df268f00cf14
+353	523	1782825356629697411	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	f973dcf2bf68039a
+96	524	1782825356373075790	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	45b70404e2d00952
+377	541	1782825356654300488	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	d23da5c7b5137134
+480	582	1782825356757064646	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	b36977dc6db846fc
+487	585	1782825356763674109	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj	3458874ea5521df5
+523	610	1782825356800260179	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	b82e90f6e87b9cb9
+524	616	1782825356800757227	esp-idf/esp_rom/libesp_rom.a	7b5858921c0a8fff
+471	620	1782825356748029318	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	cd2c2d9b430f351
+491	655	1782825356767787705	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	c856de6ee246a8e3
+344	668	1782825356620979378	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	de56d575d4e5c66f
+610	674	1782825356886555285	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	e66584562bbef97
+616	683	1782825356893114039	esp-idf/esp_common/libesp_common.a	f14809e7e4329de6
+582	684	1782825356858676497	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj	175c58226bf8c344
+621	701	1782825356897432429	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	6d55639b94855cf6
+668	714	1782825356944571181	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj	d4f6c704e0cc12e8
+585	720	1782825356862287837	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	28052e2431f1d11c
+655	721	1782825356931913596	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	b72eb703804efaf5
+684	748	1782825356960786314	esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj	989aa251667b946a
+683	762	1782825356959934094	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	ddf89487320f03d3
+701	775	1782825356977561662	esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj	8519354939661ae9
+493	786	1782825356769382268	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj	58838643543bfe46
+720	786	1782825356996517872	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	d4dec20003f980cb
+721	813	1782825356997871099	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	4b7949a3f2588f1a
+714	818	1782825356990502292	esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj	3b94df347b7c31f8
+674	827	1782825356950948225	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj	ef399d7c0869aab3
+167	828	1782825356443490226	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj	93a93fba0d2c5c71
+748	860	1782825357025332089	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj	3476a508c70c3c2e
+488	865	1782825356765022044	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	e760daef71d97f6f
+813	906	1782825357089986324	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	168bc99c90d70ca6
+818	907	1782825357095311936	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	3fa99e5021e72a33
+762	911	1782825357038669350	esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj	37ac3d2fa488cbcc
+494	913	1782825356770976623	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	86963d4589e24a18
+827	913	1782825357104163679	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj	ef5cc452fbe66528
+786	914	1782825357062851129	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj	8114629e3f72afa9
+541	925	1782825356817452283	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	d11eebf34a46eec7
+861	931	1782825357138332967	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj	c11408933b46263b
+878	951	1782825357154476723	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj	fda483fde02945e
+828	954	1782825357104812812	esp-idf/esp_hw_support/libesp_hw_support.a	aac79d49746bb0f
+906	964	1782825357183188438	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj	5e1dd02ec3ada75e
+907	966	1782825357184061492	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj	bd89f3042d8a983
+775	978	1782825357052186988	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	9713d38ebb9c0cfc
+931	982	1782825357208204437	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj	2f3d673a132a7998
+911	985	1782825357187875292	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj	c6d21abc8553164
+914	990	1782825357191128294	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj	f93ef21d27b55e99
+913	992	1782825357189684150	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj	afe6d363765b3220
+914	997	1782825357190362159	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj	40ba785cc46484d6
+925	999	1782825357201935188	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj	5ce921cb992f43da
+951	1003	1782825357227461985	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj	879cf050bd3556ee
+954	1018	1782825357230509317	esp-idf/esp_system/libesp_system.a	d5f0018e4e19fc17
+966	1020	1782825357243219987	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj	36d513703bb11c1a
+978	1044	1782825357254869183	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj	e16dd5fc91e6db15
+982	1045	1782825357258733151	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj	4ffb07f182adc802
+985	1045	1782825357262260073	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj	3422773ad56fd28e
+964	1046	1782825357240884206	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj	60a8c32d59f05a9f
+992	1046	1782825357269513920	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj	f3412640062503eb
+1003	1053	1782825357279727847	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj	3f640f74e96bf7fa
+990	1054	1782825357267114179	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj	2e78971b533a3f19
+999	1057	1782825357276106132	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj	2b7b4d5a17eeffec
+997	1060	1782825357273888519	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj	4927dfd71f51f38e
+1046	1068	1782825357342476640	project_elf_src_esp32.c	95b56ccda9457bf0
+1046	1068	1782825357342476640	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/project_elf_src_esp32.c	95b56ccda9457bf0
+1020	1083	1782825357296788407	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj	1c2105b549a7b7f6
+1045	1090	1782825357321424568	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/power_supply_periph.c.obj	428146bb759fdf23
+1045	1100	1782825357322237329	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	d6825e25756b8e5c
+1018	1102	1782825357295110635	esp-idf/efuse/libefuse.a	fa7cb5ba9da42e8d
+1046	1107	1782825357322708919	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	5e78b1f5554ab254
+1068	1107	1782825357345265719	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj	6f81108352730faf
+1044	1114	1782825357320614891	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj	15113f011d5f7f2
+1053	1118	1782825357329739762	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	939f8587d27bb350
+1102	1193	1782825357378694122	esp-idf/bootloader_support/libbootloader_support.a	e0c446bacbc6af95
+1193	1231	1782825357469987752	esp-idf/esp_bootloader_format/libesp_bootloader_format.a	e822e2c8709daae8
+1231	1269	1782825357507943257	esp-idf/spi_flash/libspi_flash.a	8feea09b9bf867e8
+787	1276	1782825357063365053	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	8383fc88c3679595
+1269	1319	1782825357545770302	esp-idf/hal/libhal.a	50e85b2cee132899
+1319	1354	1782825357595638215	esp-idf/micro-ecc/libmicro-ecc.a	a551e251e74dee1
+1354	1438	1782825357630606513	esp-idf/soc/libsoc.a	10c798de7bc27bff
+1438	1473	1782825357715198305	esp-idf/xtensa/libxtensa.a	5f19d34d1f09ab54
+1473	1506	1782825357750294938	esp-idf/main/libmain.a	7fb3fb83534a7e33
+1506	1564	1782825357782943789	bootloader.elf	e8fbb491e95fe3ff
+1564	1665	1782825357941018558	.bin_timestamp	6342bb311fa0e400
+1564	1665	1782825357941018558	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/.bin_timestamp	6342bb311fa0e400
+1665	1697	1782825357941703484	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+1665	1697	1782825357941703484	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+7	36	1782826390117093754	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+7	36	1782826390117093754	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782826863554546078	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782826863554546078	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	31	1782826950587883441	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	31	1782826950587883441	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	38	1782827205012494883	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	38	1782827205012494883	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	32	1782827209091396867	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	32	1782827209091396867	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	36	1782827318129674951	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	36	1782827318129674951	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782827322615312405	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782827322615312405	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782827360656815362	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782827360656815362	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782827366862728982	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782827366862728982	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	36	1782827418068702066	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	36	1782827418068702066	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782827422069366588	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782827422069366588	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782827455555618667	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782827455555618667	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	34	1782827459568886266	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	34	1782827459568886266	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	39	1782827812317691394	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	39	1782827812317691394	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782827821687866866	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782827821687866866	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+6	34	1782828168736690293	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+6	34	1782828168736690293	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782828271740315134	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782828271740315134	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782829609512951667	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782829609512951667	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782829622540886647	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782829622540886647	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782830045574773717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782830045574773717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782830057774472074	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782830057774472074	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	36	1782830168010479075	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	36	1782830168010479075	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	40	1782830173679381762	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	40	1782830173679381762	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782830483221977132	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782830483221977132	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782830488873854275	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782830488873854275	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	35	1782831642289335869	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	35	1782831642289335869	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782831657554034993	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782831657554034993	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782831677139761816	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782831677139761816	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832113024347462	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832113024347462	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832363031628429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832363031628429	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782832367223214717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782832367223214717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782832855026147314	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782832855026147314	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832870740852958	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782832870740852958	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	45	1782832876574448281	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	45	1782832876574448281	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782833407410198488	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782833407410198488	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782833771768932351	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782833771768932351	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782833901392153429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782833901392153429	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782834154122640270	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	35	1782834154122640270	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782834484089864859	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782834484089864859	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782834849543409860	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782834849543409860	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782834853786727721	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	31	1782834853786727721	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+6	34	1782835089309847642	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+6	34	1782835089309847642	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782835157961134179	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782835157961134179	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	32	1782835162011957070	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	32	1782835162011957070	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782835468627426742	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782835468627426742	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	41	1782835502544026242	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	41	1782835502544026242	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	34	1782835538461896179	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	34	1782835538461896179	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	39	1782835542652231417	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	39	1782835542652231417	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	39	1782836480838793313	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	39	1782836480838793313	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782836486356099547	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782836486356099547	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782836726949362680	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1782836726949362680	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782836765776386736	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	33	1782836765776386736	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782836788632257831	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	30	1782836788632257831	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782836792644105466	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782836792644105466	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782837015139682566	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	32	1782837015139682566	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782837113184602255	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782837113184602255	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782837117173263969	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	31	1782837117173263969	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+8	46	1782886369754639717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+8	46	1782886369754639717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	34	1782886374007201427	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+2	34	1782886374007201427	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40

@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf
+    add-symbol-file /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/airmic_wr104_classic_combo.elf
+file /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/airmic_wr104_classic_combo.elf

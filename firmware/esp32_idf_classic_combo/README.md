@@ -12,7 +12,7 @@ It exposes one Classic Bluetooth device named `AirMic WR104` with:
 ## Version
 
 ```text
-wr104-2026-06-29-new-board
+wr104-260701-micboost-i141532
 ```
 
 ## Pins
@@ -21,20 +21,33 @@ Keys use internal pulldown and are active high:
 
 | Function | GPIO |
 | --- | --- |
-| Backspace | GPIO32 |
-| Enter | GPIO27 |
-| Right Option | GPIO12 |
+| Backspace | GPIO25 |
+| Enter | GPIO26 |
+| Right Alt / Option | GPIO13 |
+
+The third key sends one fixed HID modifier:
+
+- HID modifier: `Right Alt`.
+- macOS shows this as right `Option`.
+- Windows shows this as right `Alt`.
+- No separate Win/Mac mode is used.
 
 INMP441:
 
 | Signal | GPIO |
 | --- | --- |
-| BCLK | GPIO17 |
-| WS / LRCL | GPIO4 |
-| DOUT | GPIO0 |
+| SCK / BCLK | GPIO14 |
+| WS / LRCL | GPIO15 |
+| SD / DOUT | GPIO32 |
 | VDD | 3V3 |
 | GND | GND |
 | L/R | GND |
+
+Audio profile:
+
+- MacAir microphone boost tuning.
+- Raw I2S diagnostic logging is off for normal use.
+- Voice path uses stronger front-end gain, slow AGC, lighter noise gating, and soft limiting.
 
 ## Build
 
@@ -58,7 +71,7 @@ python3 -m esptool --chip esp32 --port /dev/cu.usbserial-1140 --baud 460800 --be
 Expected boot log:
 
 ```text
-AirMic WR104 ESP-IDF Classic combo wr104-2026-06-29-new-board
+AirMic WR104 ESP-IDF Classic combo wr104-260701-micboost-i141532
 HID init status=0 ready=yes
 No bonded host. Pair AirMic WR104 from macOS/Windows Bluetooth settings.
 ```

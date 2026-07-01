@@ -1,0 +1,94 @@
+Command: /Users/jiang/.espressif/python_env/idf5.5_py3.11_env/bin/python /Users/jiang/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-140 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/airmic_wr104_classic_combo.elf /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf -m '/Users/jiang/.espressif/python_env/idf5.5_py3.11_env/bin/python' '/Users/jiang/esp/esp-idf/tools/idf.py' '-p' '/dev/cu.usbserial-140'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jun 30 2026 21:15:57[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=20988h (133512) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=000309b0 vaddr=3ffbdb60 size=04938h ( 18744) load[0m
+[0;32mI (141) esp_image: segment 2: paddr=000352f0 vaddr=40080000 size=0ad28h ( 44328) load[0m
+[0;32mI (158) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=816d8h (530136) map[0m
+[0;32mI (340) esp_image: segment 4: paddr=000c1700 vaddr=4008ad28 size=0e798h ( 59288) load[0m
+[0;32mI (363) esp_image: segment 5: paddr=000cfea0 vaddr=50000000 size=00098h (   152) load[0m
+[0;32mI (376) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (376) boot: Disabling RNG early entropy source...[0m
+[0;32mI (386) cpu_start: Multicore app[0m
+[0;32mI (395) cpu_start: Pro cpu start user code[0m
+[0;32mI (395) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (395) app_init: Application information:[0m
+[0;32mI (395) app_init: Project name:     airmic_wr104_classic_combo[0m
+[0;32mI (400) app_init: App version:      wr104-2026-06-29-new-board[0m
+[0;32mI (406) app_init: Compile time:     Jun 30 2026 21:15:41[0m
+[0;32mI (411) app_init: ELF file SHA256:  e149ff586...[0m
+[0;32mI (415) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (419) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (423) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (427) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (431) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (437) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (442) heap_init: At 3FFB6BF8 len 00001408 (5 KiB): DRAM[0m
+[0;32mI (447) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (453) heap_init: At 3FFCAD58 len 000152A8 (84 KiB): DRAM[0m
+[0;32mI (458) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (463) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (469) heap_init: At 400994C0 len 00006B40 (26 KiB): IRAM[0m
+[0;32mI (475) spi_flash: detected chip: generic[0m
+[0;32mI (478) spi_flash: flash io: dio[0m
+[0;33mW (481) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;33mW (488) i2s(legacy): legacy i2s driver is deprecated, please migrate to use driver/i2s_std.h, driver/i2s_pdm.h or driver/i2s_tdm.h[0m
+[0;32mI (500) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (504) main_task: Started on CPU0[0m
+[0;32mI (514) main_task: Calling app_main()[0m
+[0;32mI (524) AirMicIDF: AirMic WR104 ESP-IDF Classic combo wr104-2026-06-29-new-board[0m
+[0;32mI (524) AirMicIDF: Pins: key32/backspace key27/enter key12/right-option; INMP441 BCLK=17 WS=4 DOUT=0[0m
+[0;32mI (534) AirMicIDF: KEY_INIT pin=32 raw=0[0m
+[0;32mI (534) AirMicIDF: KEY_INIT pin=27 raw=0[0m
+[0;32mI (534) AirMicIDF: KEY_INIT pin=12 raw=0[0m
+[0;32mI (544) AirMicIDF: Battery monitor disabled. Wire battery divider to GPIO34 and set BATTERY_MONITOR_ENABLED=1 to enable.[0m
+[0;32mI (554) BTDM_INIT: BT controller compile version [722c907][0m
+[0;32mI (554) BTDM_INIT: Using main XTAL as clock source[0m
+[0;32mI (564) BTDM_INIT: Bluetooth MAC: b4:bf:e9:0b:08:d2[0m
+[0;32mI (564) AirMicIDF: esp_bt_controller_init ok[0m
+[0;32mI (574) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (1114) AirMicIDF: esp_bt_controller_enable ok[0m
+[0;32mI (1114) AirMicIDF: esp_bluedroid_init ok[0m
+[0;32mI (1184) AirMicIDF: esp_bluedroid_enable ok[0m
+[0;32mI (1194) AirMicIDF: esp_bt_gap_set_scan_mode(initial hidden) ok[0m
+[0;32mI (1194) AirMicIDF: esp_bt_sleep_enable ok[0m
+[0;32mI (1204) AirMicIDF: esp_bredr_sco_datapath_set ok[0m
+[0;32mI (1204) AirMicIDF: esp_bt_hid_device_register_callback ok[0m
+[0;32mI (1204) AirMicIDF: HID init status=0 ready=yes[0m
+[0;32mI (1214) AirMicIDF: esp_bt_hid_device_register_app ok[0m
+[0;32mI (1214) AirMicIDF: HID app registered status=0 in_use=no[0m
+[0;32mI (1224) AirMicIDF: esp_bt_hid_device_init ok[0m
+[0;32mI (1224) AirMicIDF: esp_hf_client_register_data_callback ok[0m
+[0;32mI (1234) AirMicIDF: esp_hf_client_register_callback ok[0m
+[0;32mI (1244) AirMicIDF: HFP profile ready=yes[0m
+[0;32mI (1244) AirMicIDF: No bonded host. Pair AirMic WR104 from macOS/Windows Bluetooth settings.[0m
+[0;32mI (1244) AirMicIDF: Pairing window opened for 60000 ms (no bonded host)[0m
+[0;32mI (1254) AirMicIDF: esp_bt_gap_set_scan_mode(pairing) ok[0m
+[0;32mI (1264) AirMicIDF: esp_hf_client_init ok[0m
+[0;32mI (3474) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=open hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m
+[0;32mI (6474) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=open hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m
+[0;32mI (9474) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=open hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m
+[0;32mI (12474) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=open hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m

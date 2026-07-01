@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/cxx/install_local_manifest.txt"
+  file(WRITE "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/cxx/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

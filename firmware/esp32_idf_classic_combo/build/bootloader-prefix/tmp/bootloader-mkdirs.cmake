@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/jiang/esp/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/Users/jiang/esp/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader"
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix"
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/tmp"
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src"
-  "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/tmp"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src"
+  "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

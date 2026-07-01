@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/main
+# Install script for directory: /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/main/install_local_manifest.txt"
+  file(WRITE "/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/main/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

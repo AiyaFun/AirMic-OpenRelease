@@ -1,0 +1,185 @@
+Command: /Users/jiang/.espressif/python_env/idf5.5_py3.11_env/bin/python /Users/jiang/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-140 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/airmic_wr104_classic_combo.elf /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf -m '/Users/jiang/.espressif/python_env/idf5.5_py3.11_env/bin/python' '/Users/jiang/esp/esp-idf/tools/idf.py' '-p' '/dev/cu.usbserial-140'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jun 30 2026 21:15:57[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00200000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=209e8h (133608) map[0m
+[0;32mI (134) esp_image: segment 1: paddr=00030a10 vaddr=3ffbdb60 size=04938h ( 18744) load[0m
+[0;32mI (141) esp_image: segment 2: paddr=00035350 vaddr=40080000 size=0acc8h ( 44232) load[0m
+[0;32mI (158) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=81874h (530548) map[0m
+[0;32mI (340) esp_image: segment 4: paddr=000c189c vaddr=4008acc8 size=0e7f8h ( 59384) load[0m
+[0;32mI (363) esp_image: segment 5: paddr=000d009c vaddr=50000000 size=00098h (   152) load[0m
+[0;32mI (376) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (376) boot: Disabling RNG early entropy source...[0m
+[0;32mI (387) cpu_start: Multicore app[0m
+[0;32mI (395) cpu_start: Pro cpu start user code[0m
+[0;32mI (395) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (395) app_init: Application information:[0m
+[0;32mI (395) app_init: Project name:     airmic_wr104_classic_combo[0m
+[0;32mI (401) app_init: App version:      wr104-2026-06-29-new-board[0m
+[0;32mI (406) app_init: Compile time:     Jun 30 2026 21:15:41[0m
+[0;32mI (411) app_init: ELF file SHA256:  24ff0f39e...[0m
+[0;32mI (416) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (419) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (423) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (427) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (431) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (437) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (442) heap_init: At 3FFB6BF8 len 00001408 (5 KiB): DRAM[0m
+[0;32mI (448) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (453) heap_init: At 3FFCAD80 len 00015280 (84 KiB): DRAM[0m
+[0;32mI (458) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (463) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (469) heap_init: At 400994C0 len 00006B40 (26 KiB): IRAM[0m
+[0;32mI (476) spi_flash: detected chip: generic[0m
+[0;32mI (478) spi_flash: flash io: dio[0m
+[0;33mW (481) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;33mW (488) i2s(legacy): legacy i2s driver is deprecated, please migrate to use driver/i2s_std.h, driver/i2s_pdm.h or driver/i2s_tdm.h[0m
+[0;32mI (500) coexist: coex firmware version: b0bcc39[0m
+[0;32mI (505) main_task: Started on CPU0[0m
+[0;32mI (515) main_task: Calling app_main()[0m
+[0;32mI (525) AirMicIDF: AirMic WR104 ESP-IDF Classic combo wr104-2026-06-29-new-board[0m
+[0;32mI (525) AirMicIDF: Pins: key32/backspace key27/enter key12/right-option; INMP441 BCLK=17 WS=4 DOUT=0[0m
+[0;32mI (525) AirMicIDF: KEY_INIT pin=32 raw=0[0m
+[0;32mI (535) AirMicIDF: KEY_INIT pin=27 raw=0[0m
+[0;32mI (535) AirMicIDF: KEY_INIT pin=12 raw=0[0m
+[0;32mI (535) AirMicIDF: Battery monitor disabled. Wire battery divider to GPIO34 and set BATTERY_MONITOR_ENABLED=1 to enable.[0m
+[0;32mI (555) BTDM_INIT: BT controller compile version [722c907][0m
+[0;32mI (555) BTDM_INIT: Using main XTAL as clock source[0m
+[0;32mI (565) BTDM_INIT: Bluetooth MAC: b4:bf:e9:0b:09:f2[0m
+[0;32mI (565) AirMicIDF: esp_bt_controller_init ok[0m
+[0;32mI (565) phy_init: phy_version 4861,b71b5ad,Aug  5 2025,11:16:06[0m
+[0;32mI (655) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (1145) AirMicIDF: esp_bt_controller_enable ok[0m
+[0;32mI (1155) AirMicIDF: esp_bluedroid_init ok[0m
+[0;32mI (1225) AirMicIDF: esp_bluedroid_enable ok[0m
+[0;32mI (1235) AirMicIDF: esp_bt_gap_set_scan_mode(initial hidden) ok[0m
+[0;32mI (1235) AirMicIDF: esp_bt_sleep_enable ok[0m
+[0;32mI (1235) AirMicIDF: esp_bredr_sco_datapath_set ok[0m
+[0;32mI (1235) AirMicIDF: esp_bt_hid_device_register_callback ok[0m
+[0;32mI (1245) AirMicIDF: HID init status=0 ready=yes[0m
+[0;32mI (1245) AirMicIDF: esp_bt_hid_device_register_app ok[0m
+[0;32mI (1255) AirMicIDF: HID app registered status=0 in_use=no[0m
+[0;32mI (1255) AirMicIDF: esp_bt_hid_device_init ok[0m
+[0;32mI (1265) AirMicIDF: esp_hf_client_register_data_callback ok[0m
+[0;32mI (1265) AirMicIDF: esp_hf_client_register_callback ok[0m
+[0;32mI (1285) AirMicIDF: HFP profile ready=yes[0m
+[0;32mI (1285) AirMicIDF: bonded host found: **:**:**:**:37:95[0m
+[0;32mI (1285) AirMicIDF: esp_hf_client_init ok[0m
+[0;32mI (3475) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m
+[0;32mI (5475) AirMicIDF: HID connect (background retry) to **:**:**:**:37:95[0m
+[0;32mI (5475) AirMicIDF: HID open status=0 state=1 connected=no[0m
+[0;32mI (5475) AirMicIDF: esp_bt_hid_device_connect ok[0m
+[0;32mI (5475) AirMicIDF: HFP connect (background retry) to **:**:**:**:37:95[0m
+[0;32mI (5485) AirMicIDF: esp_hf_client_connect ok[0m
+[0;32mI (6475) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=no sco=no hidReady=yes hid=no i2s=no micStandby=no btLow=no batt=-1mV battLow=no peak=0 noise=180 agc_q8=256 frames=0 drops=0[0m
+[1;31mE (8175) BT_BTM: btm_sec_l2cap_access_req: (initiator) remote features unknown!!sec_flags:0x4090[0m
+
+[0;33mW (8185) BT_HCI: hcif conn complete: hdl 0x81, st 0x0[0m
+[0;33mW (8265) BT_HCI: hcif link supv_to changed: hdl 0x81, supv_to 8000[0m
+[0;33mW (8405) BT_HIDD: hidd_l2cif_config_cfm: config failed, retry[0m
+[0;33mW (8425) BT_APPL: new conn_srvc id:20, app_id:1[0m
+[0;32mI (8425) AirMicIDF: HID open status=0 state=0 connected=yes[0m
+[0;33mW (8445) BT_APPL: new conn_srvc id:27, app_id:1[0m
+[0;33mW (8455) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;32mI (8455) AirMicIDF: HID protocol mode=0[0m
+[0;32mI (8455) AirMicIDF: HFP connection=RFCOMM_CONNECTED[0m
+[0;33mW (8475) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8515) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8535) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8535) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8555) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8565) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8575) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8595) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8625) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8625) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;32mI (8635) AirMicIDF: HFP connection=SLC_CONNECTED[0m
+[0;33mW (8645) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8645) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8655) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8675) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8685) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8685) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8705) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8715) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8715) BT_APPL: bta_hf_client_send_at: No service, skipping 11 command[0m
+[0;33mW (8735) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8745) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8755) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;33mW (8785) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8805) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8815) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8875) BT_HCI: hcif mode change: hdl 0x81, mode 2, intv 18, status 0x0[0m
+[0;32mI (8885) AirMicIDF: HFP audio=CONNECTED_MSBC[0m
+[1;31mE (8885) i2s(legacy): i2s_driver_uninstall(1586): I2S port 0 has not installed[0m
+[0;32mI (8895) AirMicIDF: I2S started fs=16000 BCLK=17 WS=4 DOUT=0[0m
+[0;33mW (8915) BT_HCI: hci cmd send: unsniff: hdl 0x81[0m
+[0;33mW (8935) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x0[0m
+[0;33mW (8985) BT_HCI: hci cmd send: sniff: hdl 0x81, intv(10 18)[0m
+[0;33mW (8995) BT_HCI: hcif mode change: hdl 0x81, mode 0, intv 0, status 0x20[0m
+[1;31mE (9005) BT_APPL: bta_dm_pm_btm_status hci_status=32[0m
+[0;32mI (9475) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=77 drops=0[0m
+[0;32mI (9905) AirMicIDF: RAW_I2S ch=RIGHT frames=135 rawMin=-1 rawMax=0 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (10905) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (11915) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (12475) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=477 drops=0[0m
+[0;32mI (12915) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (13925) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (14925) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (15485) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=878 drops=0[0m
+[0;32mI (15935) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (16935) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (17945) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (18485) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=1279 drops=0[0m
+[0;32mI (18945) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (19955) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (20955) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (21495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=1679 drops=0[0m
+[0;32mI (21965) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (22965) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (23975) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (24495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=2079 drops=0[0m
+[0;32mI (24975) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (25985) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (26985) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (27495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=2479 drops=0[0m
+[0;32mI (27995) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (28995) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (30005) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (30495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=2879 drops=0[0m
+[0;32mI (31005) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (32015) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (33015) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (33495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=3279 drops=0[0m
+[0;32mI (34025) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (35025) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (36035) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (36495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=3679 drops=0[0m
+[0;32mI (37035) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (38045) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (39045) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (39495) AirMicIDF: RUN fw=wr104-2026-06-29-new-board pair=closed hfp=yes slc=yes sco=yes hidReady=yes hid=yes i2s=yes micStandby=no btLow=no batt=-1mV battLow=no peak=1 noise=180 agc_q8=256 frames=4079 drops=0[0m
+[0;32mI (40055) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m
+[0;32mI (41055) AirMicIDF: RAW_I2S ch=RIGHT frames=134 rawMin=-1 rawMax=-1 rawPeak=1 p8=1 p12=1 p14=1 p16=1[0m

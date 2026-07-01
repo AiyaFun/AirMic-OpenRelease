@@ -1,7 +1,7 @@
 // AirMic WR104 ESP-IDF Classic Bluetooth combo experiment
 // Board: ESP32-WROOM-32 / ESP32-WROOM-DA
 // Goal: one Classic Bluetooth device name with HFP microphone + Classic HID keyboard.
-// Firmware version: wr104-2026-06-29-new-board
+// Firmware version: wr104-260701-micboost-i141532
 
 #include <inttypes.h>
 #include <stdbool.h>
@@ -30,12 +30,12 @@
 #include "freertos/stream_buffer.h"
 #include "freertos/task.h"
 
-#define FIRMWARE_VERSION "wr104-2026-06-29-new-board"
+#define FIRMWARE_VERSION "wr104-260701-micboost-i141532"
 #define BT_DEVICE_NAME "AirMic WR104"
 
-#define I2S_BCLK_GPIO 17
-#define I2S_WS_GPIO 4
-#define I2S_SD_GPIO 0
+#define I2S_BCLK_GPIO 14
+#define I2S_WS_GPIO 15
+#define I2S_SD_GPIO 32
 #define I2S_PORT I2S_NUM_0
 
 #define CVSD_RATE_HZ 8000
@@ -43,18 +43,31 @@
 #define CVSD_FRAME_SAMPLES 30
 #define MSBC_FRAME_SAMPLES 120
 #define RING_FRAMES 8
-#define MIC_GAIN 1
+#define MIC_GAIN 2
 
 #define LOG_FULL_BDA 0
+#define MIC_ONLY_TEST_ENABLED 0
+#define MSM3526_STEREO_SCAN_ENABLED 0
+#define HFP_TEST_TONE_ENABLED 0
+#define HFP_TEST_TONE_HZ 1000
+#define HFP_TEST_TONE_AMPLITUDE 9000
 #define HFP_REQUEST_DISABLE_NREC 0
 #define AUDIO_DSP_ENABLED 0
-#define HFP_AUTO_OPEN_SCO 0
+#define HFP_AUTO_OPEN_SCO 1
 #define RAW_I2S_DIAG_ENABLED 0
-#define MACAIR_TARGET_AVG 500
+#define MACAIR_TARGET_AVG_CVSD 2600
+#define MACAIR_TARGET_AVG_MSBC 3600
 #define MACAIR_AGC_MIN_Q8 256
-#define MACAIR_AGC_MAX_Q8 1024
-#define MACAIR_NOISE_HOLD_AVG 35
-#define MACAIR_SOFT_LIMIT 14000
+#define MACAIR_AGC_MAX_Q8 2048
+#define MACAIR_NOISE_HOLD_AVG 12
+#define MACAIR_NOISE_FLOOR_MIN 8
+#define MACAIR_NOISE_FLOOR_MAX 600
+#define MACAIR_NOISE_GATE_MULTIPLIER 1
+#define MACAIR_NOISE_GATE_OFFSET 18
+#define MACAIR_SPEECH_LOW_ATTENUATION_Q8 256
+#define MACAIR_SILENCE_ATTENUATION_Q8 224
+#define MACAIR_PEAK_LIMIT 28000
+#define MACAIR_SOFT_LIMIT 22000
 
 #define PAIRING_WINDOW_MS 60000
 #define PAIRING_REOPEN_HOLD_MS 3000
@@ -102,8 +115,8 @@
 #define LIMITER_ABS 28000
 
 static const char *TAG = "AirMicIDF";
-static const gpio_num_t KEY_PINS[] = {GPIO_NUM_32, GPIO_NUM_27, GPIO_NUM_12};
-static const char *KEY_NAMES[] = {"BACKSPACE", "ENTER", "RIGHT_OPTION"};
+static const gpio_num_t KEY_PINS[] = {GPIO_NUM_25, GPIO_NUM_26, GPIO_NUM_13};
+static const char *KEY_NAMES[] = {"BACKSPACE", "ENTER", "RIGHT_ALT_OPTION"};
 static const uint8_t KEY_COUNT = sizeof(KEY_PINS) / sizeof(KEY_PINS[0]);
 
 static const uint8_t HID_REPORT_MAP[] = {
@@ -175,7 +188,7 @@ static int32_t agc_gain_q8 = 256;
 static adc_oneshot_unit_handle_t battery_adc_handle = NULL;
 #endif
 
-static int32_t i2s_raw[MSBC_FRAME_SAMPLES];
+static int32_t i2s_raw[MSBC_FRAME_SAMPLES * (MSM3526_STEREO_SCAN_ENABLED ? 2 : 1)];
 static int16_t pcm_frame[MSBC_FRAME_SAMPLES];
 
 static void exit_mic_light_standby(const char *reason);
@@ -208,6 +221,11 @@ static void remember_bda(const esp_bd_addr_t bda) {
     have_remote_bda = true;
 }
 
+static const char *key_name(uint8_t index) {
+    if (index < KEY_COUNT) return KEY_NAMES[index];
+    return "UNKNOWN";
+}
+
 static size_t sco_frame_samples(bool msbc) {
     return msbc ? MSBC_FRAME_SAMPLES : CVSD_FRAME_SAMPLES;
 }
@@ -216,7 +234,7 @@ static size_t sco_frame_bytes(bool msbc) {
     return sco_frame_samples(msbc) * sizeof(int16_t);
 }
 
-static int16_t convert_inmp441_sample(int32_t sample) {
+static int16_t convert_i2s_mic_sample(int32_t sample) {
     int32_t v = (sample >> 16) * MIC_GAIN;
     if (v > 26000) v = 26000 + ((v - 26000) >> 2);
     if (v < -26000) v = -26000 + ((v + 26000) >> 2);
@@ -224,6 +242,52 @@ static int16_t convert_inmp441_sample(int32_t sample) {
     if (v < -32768) return -32768;
     return (int16_t)v;
 }
+
+#if RAW_I2S_DIAG_ENABLED
+typedef struct {
+    int32_t raw_min;
+    int32_t raw_max;
+    int32_t raw_peak;
+    int32_t p8;
+    int32_t p12;
+    int32_t p14;
+    int32_t p16;
+    bool inited;
+} raw_i2s_stats_t;
+#endif
+
+#if RAW_I2S_DIAG_ENABLED || MSM3526_STEREO_SCAN_ENABLED
+static int32_t abs32_safe(int32_t v) {
+    if (v == INT32_MIN) return INT32_MAX;
+    return v < 0 ? -v : v;
+}
+#endif
+
+#if RAW_I2S_DIAG_ENABLED
+static void raw_i2s_stats_update(raw_i2s_stats_t *stats, int32_t raw) {
+    if (!stats->inited) {
+        stats->raw_min = raw;
+        stats->raw_max = raw;
+        stats->inited = true;
+    }
+    if (raw < stats->raw_min) stats->raw_min = raw;
+    if (raw > stats->raw_max) stats->raw_max = raw;
+    int32_t a = abs32_safe(raw);
+    if (a > stats->raw_peak) stats->raw_peak = a;
+    int32_t a8 = abs32_safe(raw >> 8);
+    int32_t a12 = abs32_safe(raw >> 12);
+    int32_t a14 = abs32_safe(raw >> 14);
+    int32_t a16 = abs32_safe(raw >> 16);
+    if (a8 > stats->p8) stats->p8 = a8;
+    if (a12 > stats->p12) stats->p12 = a12;
+    if (a14 > stats->p14) stats->p14 = a14;
+    if (a16 > stats->p16) stats->p16 = a16;
+}
+
+static void raw_i2s_stats_reset(raw_i2s_stats_t *stats) {
+    memset(stats, 0, sizeof(*stats));
+}
+#endif
 
 static int16_t clamp16(int32_t v) {
     if (v > 32767) return 32767;
@@ -234,8 +298,8 @@ static int16_t clamp16(int32_t v) {
 static void reset_audio_dsp(void) {
     hpf_prev_x = 0;
     hpf_prev_y = 0;
-    noise_floor = NOISE_FLOOR_MIN;
-    agc_gain_q8 = 256;
+    noise_floor = MACAIR_NOISE_FLOOR_MIN;
+    agc_gain_q8 = 512;
 }
 
 static int16_t highpass_sample(int16_t sample, bool msbc) {
@@ -265,11 +329,26 @@ static void process_audio_frame(int16_t *samples, size_t count, bool msbc, int16
     }
 
     int32_t avg_abs = (int32_t)(abs_sum / (int64_t)count);
-    int32_t target_gain_q8 = MACAIR_AGC_MIN_Q8;
-    if (avg_abs >= MACAIR_NOISE_HOLD_AVG) {
-        target_gain_q8 = (MACAIR_TARGET_AVG * 256) / avg_abs;
+    if (avg_abs < MACAIR_NOISE_FLOOR_MAX) {
+        int32_t candidate = avg_abs < MACAIR_NOISE_FLOOR_MIN ? MACAIR_NOISE_FLOOR_MIN : avg_abs;
+        if (candidate < noise_floor) {
+            noise_floor = (noise_floor * 3 + candidate) / 4;
+        } else if (candidate < noise_floor * 2) {
+            noise_floor = (noise_floor * 31 + candidate) / 32;
+        }
+        if (noise_floor < MACAIR_NOISE_FLOOR_MIN) noise_floor = MACAIR_NOISE_FLOOR_MIN;
+        if (noise_floor > MACAIR_NOISE_FLOOR_MAX) noise_floor = MACAIR_NOISE_FLOOR_MAX;
+    }
+
+    int32_t gate_threshold = noise_floor * MACAIR_NOISE_GATE_MULTIPLIER + MACAIR_NOISE_GATE_OFFSET;
+    bool speech_like = avg_abs >= MACAIR_NOISE_HOLD_AVG &&
+                       (avg_abs > gate_threshold || raw_peak > gate_threshold * 4);
+    int32_t target_gain_q8 = 384;
+    if (speech_like && avg_abs > 0) {
+        int32_t target_avg = msbc ? MACAIR_TARGET_AVG_MSBC : MACAIR_TARGET_AVG_CVSD;
+        target_gain_q8 = (target_avg * 256) / avg_abs;
         if (raw_peak > 0) {
-            int32_t peak_limited_q8 = (30000 * 256) / raw_peak;
+            int32_t peak_limited_q8 = (MACAIR_PEAK_LIMIT * 256) / raw_peak;
             if (target_gain_q8 > peak_limited_q8) target_gain_q8 = peak_limited_q8;
         }
         if (target_gain_q8 < MACAIR_AGC_MIN_Q8) target_gain_q8 = MACAIR_AGC_MIN_Q8;
@@ -277,18 +356,24 @@ static void process_audio_frame(int16_t *samples, size_t count, bool msbc, int16
     }
 
     if (target_gain_q8 > agc_gain_q8) {
-        agc_gain_q8 = (agc_gain_q8 * 3 + target_gain_q8) / 4;
-    } else {
         agc_gain_q8 = (agc_gain_q8 * 7 + target_gain_q8) / 8;
+    } else {
+        agc_gain_q8 = (agc_gain_q8 * 3 + target_gain_q8) / 4;
     }
 
     int32_t final_peak = 0;
     for (size_t i = 0; i < count; ++i) {
-        int32_t v = ((int32_t)samples[i] * agc_gain_q8) >> 8;
+        int32_t v = samples[i];
+        int32_t a = v < 0 ? -v : v;
+        if (a < gate_threshold) {
+            int32_t attenuation_q8 = speech_like ? MACAIR_SPEECH_LOW_ATTENUATION_Q8 : MACAIR_SILENCE_ATTENUATION_Q8;
+            v = (v * attenuation_q8) >> 8;
+        }
+        v = (v * agc_gain_q8) >> 8;
         if (v > MACAIR_SOFT_LIMIT) v = MACAIR_SOFT_LIMIT + ((v - MACAIR_SOFT_LIMIT) >> 3);
         if (v < -MACAIR_SOFT_LIMIT) v = -MACAIR_SOFT_LIMIT + ((v + MACAIR_SOFT_LIMIT) >> 3);
         samples[i] = clamp16(v);
-        int32_t a = samples[i] < 0 ? -(int32_t)samples[i] : (int32_t)samples[i];
+        a = samples[i] < 0 ? -(int32_t)samples[i] : (int32_t)samples[i];
         if (a > final_peak) final_peak = a;
     }
 
@@ -384,7 +469,11 @@ static void start_i2s(bool msbc) {
         .mode = I2S_MODE_MASTER | I2S_MODE_RX,
         .sample_rate = msbc ? MSBC_RATE_HZ : CVSD_RATE_HZ,
         .bits_per_sample = I2S_BITS_PER_SAMPLE_32BIT,
+#if MSM3526_STEREO_SCAN_ENABLED
+        .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
+#else
         .channel_format = I2S_CHANNEL_FMT_ONLY_LEFT,
+#endif
         .communication_format = I2S_COMM_FORMAT_STAND_I2S,
         .intr_alloc_flags = ESP_INTR_FLAG_LEVEL1,
         .dma_buf_count = 4,
@@ -415,7 +504,12 @@ static void start_i2s(bool msbc) {
     i2s_zero_dma_buffer(I2S_PORT);
     i2s_start(I2S_PORT);
     i2s_running = true;
-    ESP_LOGI(TAG, "I2S started fs=%d BCLK=%d WS=%d DOUT=%d", cfg.sample_rate, I2S_BCLK_GPIO, I2S_WS_GPIO, I2S_SD_GPIO);
+    ESP_LOGI(TAG, "INMP441 I2S started fs=%d SCK/BCLK=%d WS=%d SD=%d stereoScan=%s",
+             cfg.sample_rate,
+             I2S_BCLK_GPIO,
+             I2S_WS_GPIO,
+             I2S_SD_GPIO,
+             MSM3526_STEREO_SCAN_ENABLED ? "yes" : "no");
 }
 
 static void stop_i2s(void) {
@@ -430,7 +524,8 @@ static void stop_i2s(void) {
 static void mic_capture_task(void *arg) {
     bool task_msbc = ((uintptr_t)arg) != 0;
     size_t samples = sco_frame_samples(task_msbc);
-    size_t raw_bytes = samples * sizeof(int32_t);
+    size_t raw_words = samples * (MSM3526_STEREO_SCAN_ENABLED ? 2 : 1);
+    size_t raw_bytes = raw_words * sizeof(int32_t);
     size_t pcm_bytes = samples * sizeof(int16_t);
 
     while (mic_task_running) {
@@ -439,78 +534,105 @@ static void mic_capture_task(void *arg) {
         if (!mic_task_running) break;
         if (err != ESP_OK || bytes_read < raw_bytes) continue;
 
+#if MSM3526_STEREO_SCAN_ENABLED
+        int64_t left_energy = 0;
+        int64_t right_energy = 0;
+        for (size_t i = 0; i < samples; ++i) {
+            left_energy += abs32_safe(i2s_raw[i * 2] >> 16);
+            right_energy += abs32_safe(i2s_raw[i * 2 + 1] >> 16);
+        }
+        bool use_right = right_energy > left_energy;
+#endif
+
 #if RAW_I2S_DIAG_ENABLED
         {
             static uint32_t diag_last_ms = 0;
             static uint32_t diag_frames = 0;
-            static int32_t diag_raw_min = 0;
-            static int32_t diag_raw_max = 0;
-            static int32_t diag_raw_peak = 0;
-            static int32_t diag_p8 = 0;
-            static int32_t diag_p12 = 0;
-            static int32_t diag_p14 = 0;
-            static int32_t diag_p16 = 0;
-            static bool diag_inited = false;
+#if MSM3526_STEREO_SCAN_ENABLED
+            static raw_i2s_stats_t diag_left = {0};
+            static raw_i2s_stats_t diag_right = {0};
+            static uint32_t diag_use_left = 0;
+            static uint32_t diag_use_right = 0;
+#else
+            static raw_i2s_stats_t diag_mono = {0};
+#endif
 
             for (size_t i = 0; i < samples; ++i) {
+#if MSM3526_STEREO_SCAN_ENABLED
+                raw_i2s_stats_update(&diag_left, i2s_raw[i * 2]);
+                raw_i2s_stats_update(&diag_right, i2s_raw[i * 2 + 1]);
+#else
                 int32_t raw = i2s_raw[i];
-                if (!diag_inited) {
-                    diag_raw_min = raw;
-                    diag_raw_max = raw;
-                    diag_inited = true;
-                }
-                if (raw < diag_raw_min) diag_raw_min = raw;
-                if (raw > diag_raw_max) diag_raw_max = raw;
-                int32_t a = raw < 0 ? (raw == INT32_MIN ? INT32_MAX : -raw) : raw;
-                if (a > diag_raw_peak) diag_raw_peak = a;
-                int32_t s8 = raw >> 8;
-                int32_t s12 = raw >> 12;
-                int32_t s14 = raw >> 14;
-                int32_t s16 = raw >> 16;
-                int32_t a8 = s8 < 0 ? -s8 : s8;
-                int32_t a12 = s12 < 0 ? -s12 : s12;
-                int32_t a14 = s14 < 0 ? -s14 : s14;
-                int32_t a16 = s16 < 0 ? -s16 : s16;
-                if (a8 > diag_p8) diag_p8 = a8;
-                if (a12 > diag_p12) diag_p12 = a12;
-                if (a14 > diag_p14) diag_p14 = a14;
-                if (a16 > diag_p16) diag_p16 = a16;
+                raw_i2s_stats_update(&diag_mono, raw);
+#endif
             }
             diag_frames++;
+#if MSM3526_STEREO_SCAN_ENABLED
+            if (use_right) {
+                diag_use_right++;
+            } else {
+                diag_use_left++;
+            }
+#endif
 
             uint32_t now = millis_now();
             if (diag_last_ms == 0) diag_last_ms = now;
             if (now - diag_last_ms >= 1000) {
+#if MSM3526_STEREO_SCAN_ENABLED
+                ESP_LOGI(TAG,
+                         "RAW_I2S_MSM3526 frames=%lu choose=L:%lu/R:%lu L[min=%ld max=%ld peak=%ld p16=%ld] R[min=%ld max=%ld peak=%ld p16=%ld]",
+                         (unsigned long)diag_frames,
+                         (unsigned long)diag_use_left,
+                         (unsigned long)diag_use_right,
+                         (long)diag_left.raw_min,
+                         (long)diag_left.raw_max,
+                         (long)diag_left.raw_peak,
+                         (long)diag_left.p16,
+                         (long)diag_right.raw_min,
+                         (long)diag_right.raw_max,
+                         (long)diag_right.raw_peak,
+                         (long)diag_right.p16);
+                diag_frames = 0;
+                diag_use_left = 0;
+                diag_use_right = 0;
+                raw_i2s_stats_reset(&diag_left);
+                raw_i2s_stats_reset(&diag_right);
+#else
                 ESP_LOGI(TAG,
                          "RAW_I2S ch=LEFT frames=%lu rawMin=%ld rawMax=%ld rawPeak=%ld p8=%ld p12=%ld p14=%ld p16=%ld",
                          (unsigned long)diag_frames,
-                         (long)diag_raw_min,
-                         (long)diag_raw_max,
-                         (long)diag_raw_peak,
-                         (long)diag_p8,
-                         (long)diag_p12,
-                         (long)diag_p14,
-                         (long)diag_p16);
+                         (long)diag_mono.raw_min,
+                         (long)diag_mono.raw_max,
+                         (long)diag_mono.raw_peak,
+                         (long)diag_mono.p8,
+                         (long)diag_mono.p12,
+                         (long)diag_mono.p14,
+                         (long)diag_mono.p16);
                 diag_frames = 0;
-                diag_raw_min = 0;
-                diag_raw_max = 0;
-                diag_raw_peak = 0;
-                diag_p8 = 0;
-                diag_p12 = 0;
-                diag_p14 = 0;
-                diag_p16 = 0;
-                diag_inited = false;
+                raw_i2s_stats_reset(&diag_mono);
+#endif
                 diag_last_ms = now;
             }
         }
 #endif
 
         for (size_t i = 0; i < samples; ++i) {
-            pcm_frame[i] = convert_inmp441_sample(i2s_raw[i]);
+#if MSM3526_STEREO_SCAN_ENABLED
+            int32_t raw = use_right ? i2s_raw[i * 2 + 1] : i2s_raw[i * 2];
+            pcm_frame[i] = convert_i2s_mic_sample(raw);
+#else
+            pcm_frame[i] = convert_i2s_mic_sample(i2s_raw[i]);
+#endif
         }
         int16_t peak = 0;
         process_audio_frame(pcm_frame, samples, task_msbc, &peak);
         if (peak > mic_peak) mic_peak = peak;
+
+#if HFP_TEST_TONE_ENABLED
+        mic_frames++;
+        esp_hf_client_outgoing_data_ready();
+        continue;
+#endif
 
         if (!mic_ring || xStreamBufferSpacesAvailable(mic_ring) < pcm_bytes) {
             mic_drops++;
@@ -569,7 +691,11 @@ static void stop_audio_path(void) {
 }
 
 static bool any_bt_connected(void) {
+#if MIC_ONLY_TEST_ENABLED
+    return slc_connected || audio_connected || audio_connecting;
+#else
     return hid_connected || slc_connected || audio_connected || audio_connecting;
+#endif
 }
 
 static void note_connected_activity(void) {
@@ -687,6 +813,11 @@ static void enter_critical_battery_sleep(void) {
 }
 
 static void setup_battery_monitor(void) {
+#if MIC_ONLY_TEST_ENABLED
+    battery_monitor_ready = false;
+    ESP_LOGI(TAG, "MIC_ONLY_TEST: battery monitor disabled");
+    return;
+#endif
 #if BATTERY_MONITOR_ENABLED
     adc_oneshot_unit_init_cfg_t init_cfg = {
         .unit_id = ADC_UNIT_1,
@@ -736,6 +867,9 @@ static int read_battery_mv(void) {
 }
 
 static void service_battery(void) {
+#if MIC_ONLY_TEST_ENABLED
+    return;
+#endif
     uint32_t now = millis_now();
     if (now - last_battery_check_ms < BATTERY_CHECK_MS) return;
     last_battery_check_ms = now;
@@ -761,6 +895,9 @@ static void service_battery(void) {
 }
 
 static void service_power_management(void) {
+#if MIC_ONLY_TEST_ENABLED
+    return;
+#endif
     uint32_t now = millis_now();
     if (any_bt_connected()) {
         last_connected_ms = now;
@@ -786,6 +923,22 @@ static void service_power_management(void) {
 
 static uint32_t hf_outgoing_data_cb(uint8_t *buf, uint32_t len) {
     if (!buf || len == 0) return 0;
+#if HFP_TEST_TONE_ENABLED
+    static uint32_t tone_phase = 0;
+    uint32_t sample_rate = msbc_active ? MSBC_RATE_HZ : CVSD_RATE_HZ;
+    uint32_t half_period = sample_rate / (HFP_TEST_TONE_HZ * 2);
+    if (half_period == 0) half_period = 1;
+
+    int16_t *pcm = (int16_t *)buf;
+    uint32_t samples = len / sizeof(int16_t);
+    for (uint32_t i = 0; i < samples; ++i) {
+        pcm[i] = ((tone_phase / half_period) & 1U) ? HFP_TEST_TONE_AMPLITUDE : -HFP_TEST_TONE_AMPLITUDE;
+        tone_phase++;
+    }
+    if (len & 1U) buf[len - 1] = 0;
+    if (mic_peak < HFP_TEST_TONE_AMPLITUDE) mic_peak = HFP_TEST_TONE_AMPLITUDE;
+    return len;
+#endif
     if (!mic_ring || xStreamBufferBytesAvailable(mic_ring) < len) {
         memset(buf, 0, len);
         return len;
@@ -814,6 +967,10 @@ static void try_connect_hfp(const char *reason) {
 }
 
 static void try_connect_hid(const char *reason) {
+#if MIC_ONLY_TEST_ENABLED
+    (void)reason;
+    return;
+#endif
     if (pairing_discoverable) return;
     if (!hid_ready || !have_remote_bda || hid_connected) return;
     uint32_t now = millis_now();
@@ -901,8 +1058,11 @@ static void service_pairing_window(void) {
 }
 
 static bool handle_pairing_shortcuts(void) {
-    bool clear_combo = gpio_get_level(KEY_PINS[0]) == 1 && gpio_get_level(KEY_PINS[1]) == 1;
-    bool pair_combo = gpio_get_level(KEY_PINS[1]) == 1 && gpio_get_level(KEY_PINS[2]) == 1;
+    bool key0 = gpio_get_level(KEY_PINS[0]) == 1;
+    bool key1 = gpio_get_level(KEY_PINS[1]) == 1;
+    bool key2 = gpio_get_level(KEY_PINS[2]) == 1;
+    bool clear_combo = key0 && key1;
+    bool pair_combo = key1 && key2;
     uint32_t now = millis_now();
 
     if (clear_combo) {
@@ -947,10 +1107,10 @@ static void send_hid_report(uint8_t modifier, uint8_t key) {
 
 static void handle_key_command(uint8_t index) {
     note_key_activity();
-    ESP_LOGI(TAG, "KEY %s", KEY_NAMES[index]);
+    ESP_LOGI(TAG, "KEY %s", key_name(index));
     if (battery_low) {
         ESP_LOGW(TAG, "LOW BATTERY key notice: key=%s battery=%dmV threshold=%dmV",
-                 KEY_NAMES[index], battery_mv, BATTERY_LOW_MV);
+                 key_name(index), battery_mv, BATTERY_LOW_MV);
     }
     if (index == 0) {
         send_hid_report(0, HID_KEY_BACKSPACE);
@@ -962,6 +1122,10 @@ static void handle_key_command(uint8_t index) {
 }
 
 static void setup_keys(void) {
+#if MIC_ONLY_TEST_ENABLED
+    ESP_LOGI(TAG, "MIC_ONLY_TEST: keys disabled");
+    return;
+#endif
     for (uint8_t i = 0; i < KEY_COUNT; ++i) {
         gpio_config_t cfg = {
             .pin_bit_mask = 1ULL << KEY_PINS[i],
@@ -982,6 +1146,9 @@ static void setup_keys(void) {
 }
 
 static void handle_keys(void) {
+#if MIC_ONLY_TEST_ENABLED
+    return;
+#endif
     if (any_key_pressed_raw()) {
         note_key_activity();
     }
@@ -1186,8 +1353,13 @@ static void setup_bluetooth(void) {
     esp_bt_dev_set_device_name(BT_DEVICE_NAME);
 
     esp_bt_cod_t cod = {0};
+#if MIC_ONLY_TEST_ENABLED
+    cod.major = ESP_BT_COD_MAJOR_DEV_AV;
+    cod.minor = 0;
+#else
     cod.major = ESP_BT_COD_MAJOR_DEV_PERIPHERAL;
     cod.minor = ESP_BT_COD_MINOR_PERIPHERAL_KEYBOARD;
+#endif
     cod.service = ESP_BT_COD_SRVC_AUDIO | ESP_BT_COD_SRVC_TELEPHONY | ESP_BT_COD_SRVC_CAPTURING;
     esp_bt_gap_set_cod(cod, ESP_BT_SET_COD_ALL);
     esp_bt_gap_register_callback(gap_callback);
@@ -1196,8 +1368,14 @@ static void setup_bluetooth(void) {
 
     log_esp("esp_bredr_sco_datapath_set", esp_bredr_sco_datapath_set(ESP_SCO_DATA_PATH_HCI));
 
+#if MIC_ONLY_TEST_ENABLED
+    hid_ready = false;
+    hid_connected = false;
+    ESP_LOGI(TAG, "MIC_ONLY_TEST: HID service disabled");
+#else
     log_esp("esp_bt_hid_device_register_callback", esp_bt_hid_device_register_callback(hid_callback));
     log_esp("esp_bt_hid_device_init", esp_bt_hid_device_init());
+#endif
 
     log_esp("esp_hf_client_register_data_callback", esp_hf_client_register_data_callback(hf_incoming_data_cb, hf_outgoing_data_cb));
     log_esp("esp_hf_client_register_callback", esp_hf_client_register_callback(hf_client_event_cb));
@@ -1238,7 +1416,26 @@ void app_main(void) {
     ESP_ERROR_CHECK(ret);
 
     ESP_LOGI(TAG, "AirMic WR104 ESP-IDF Classic combo %s", FIRMWARE_VERSION);
-    ESP_LOGI(TAG, "Pins: key32/backspace key27/enter key12/right-option; INMP441 BCLK=17 WS=4 DOUT=0");
+#if MIC_ONLY_TEST_ENABLED
+    ESP_LOGI(TAG, "MIC_ONLY_TEST: only HFP microphone is active; HID, keys, battery and power management are disabled");
+    ESP_LOGI(TAG, "MIC_ONLY_TEST: INMP441 SCK/BCLK=%d WS=%d SD=%d RAW_I2S_DIAG=on stereoScan=%s",
+             I2S_BCLK_GPIO,
+             I2S_WS_GPIO,
+             I2S_SD_GPIO,
+             MSM3526_STEREO_SCAN_ENABLED ? "yes" : "no");
+#if HFP_TEST_TONE_ENABLED
+    ESP_LOGI(TAG, "HFP_TEST_TONE: outgoing microphone stream is synthetic %dHz amplitude=%d",
+             HFP_TEST_TONE_HZ, HFP_TEST_TONE_AMPLITUDE);
+#endif
+#else
+    ESP_LOGI(TAG, "Pins: key%d/backspace key%d/enter key%d/right_alt_option; INMP441 SCK/BCLK=%d WS=%d SD=%d",
+             KEY_PINS[0],
+             KEY_PINS[1],
+             KEY_PINS[2],
+             I2S_BCLK_GPIO,
+             I2S_WS_GPIO,
+             I2S_SD_GPIO);
+#endif
     uint32_t boot_ms = millis_now();
     last_key_activity_ms = boot_ms;
     last_audio_activity_ms = boot_ms;

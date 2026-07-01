@@ -1870,7 +1870,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/homebrew/bin/cmake --regenerate-during-build -S"/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo" -B"/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build"
+  command = /opt/homebrew/bin/cmake --regenerate-during-build -S"/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo" -B"/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build"
   description = Re-running CMake...
   generator = 1
 

@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld.in */
+/* Generated from: /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD

@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/CMakeFiles/bootloader-complete.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

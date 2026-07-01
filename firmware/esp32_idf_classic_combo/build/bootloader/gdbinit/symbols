@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /Users/jiang/Documents/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf
+file /Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/bootloader.elf
