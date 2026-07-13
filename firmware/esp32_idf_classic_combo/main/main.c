@@ -1,7 +1,7 @@
 // AirMic WR104 ESP-IDF Classic Bluetooth combo experiment
 // Board: ESP32-WROOM-32 / ESP32-WROOM-DA
 // Goal: one Classic Bluetooth device name with HFP microphone + Classic HID keyboard.
-// Firmware version: wr104-260701-micboost-i141532
+// Firmware version: wr104-260713-combo
 
 #include <inttypes.h>
 #include <stdbool.h>
@@ -30,7 +30,7 @@
 #include "freertos/stream_buffer.h"
 #include "freertos/task.h"
 
-#define FIRMWARE_VERSION "wr104-260701-micboost-i141532"
+#define FIRMWARE_VERSION "wr104-260713-combo"
 #define BT_DEVICE_NAME "AirMic WR104"
 
 #define I2S_BCLK_GPIO 14
@@ -73,10 +73,54 @@
 #define PAIRING_REOPEN_HOLD_MS 3000
 #define PAIRING_CLEAR_HOLD_MS 5000
 
+// Multi-host roaming: keep every bonded host (e.g. both macOS and Windows) so the
+// keypad can move between computers without re-pairing. Set to 0 to fall back to the
+// old behaviour where the newest pairing wipes all previous hosts.
+#define ALLOW_MULTIPLE_HOSTS 1
+
+// Windows compatibility for the Class-of-Device advertised at boot. A combo device
+// that claims major class "keyboard" but also sets the audio/telephony service bits
+// confuses some Windows Bluetooth stacks, which then attach neither the keyboard nor
+// the microphone. If Windows pairs but shows no keyboard and no mic, flip this to 1
+// to advertise a plain keyboard COD (the HFP microphone is still reachable over SDP;
+// enable "Handsfree Telephony" in the device's Services tab if it does not auto-attach).
+#define WINDOWS_COD_COMPAT 0
+
+// Windows refuses to attach the HID keyboard service over an unauthenticated ("Just
+// Works", IO_CAP_NONE) pairing — a security policy against BT keyboard sniffing. Use
+// DisplayYesNo so pairing runs Secure Simple Pairing numeric comparison (MITM-protected);
+// the device auto-confirms in the SSP callback, Windows shows a "does the code match?"
+// prompt. Set to 0 to fall back to Just Works (no MITM).
+#define REQUIRE_AUTHENTICATED_PAIRING 1
+
 #define HFP_RECONNECT_MS 5000
 #define SCO_RETRY_MS 3000
 #define HID_RECONNECT_MS 5000
 #define LOW_ACTIVITY_RECONNECT_MS 60000
+
+// After pairing or boot, let the Bluetooth *host* open the HID/HFP channels first.
+// Windows auto-connects a bonded keyboard itself; when the device also hammers
+// esp_bt_hid_device_connect() the two collide and the host-side attempt fails with
+// ESP_HIDD_BUSY (status=3), so neither keyboard nor mic attaches. Give the host a head
+// start, then fall back to device-initiated connection if it has not connected yet.
+// macOS accepts device-initiated connects, so this only costs it a few seconds.
+#define HOST_INITIATE_GRACE_MS 0
+
+// Connect the HID keyboard first, and only start HFP once HID is up. Windows cannot
+// service a device-initiated HID open and an HFP connect racing on the same ACL at the
+// same time — the HID open hangs in CONNECTING and every retry then returns ESP_HIDD_BUSY,
+// so neither attaches. Sequencing them (keyboard first, mic after) gives HID a clean link.
+#define HID_BEFORE_HFP 0
+
+// Diagnostic: 0 = never device-initiate the HID connection, rely on the host to open it.
+// Some hosts (observed: Android) accept a device-initiated HID connection then close it
+// ~40ms later, but will hold a connection they open themselves. 1 = device may initiate.
+#define DEVICE_INITIATE_HID 1
+
+// Diagnostic: 0 = keyboard only, do not start the HFP microphone profile at all. Tests
+// whether the HID+HFP combo (one device that is both a keyboard and a hands-free headset)
+// is what Windows/Android refuse. 1 = full combo (keyboard + mic).
+#define HFP_ENABLED 1
 #define STATUS_MS 3000
 #define KEY_DEBOUNCE_MS 60
 #define KEY_HOLD_MS 45
@@ -115,7 +159,7 @@
 #define LIMITER_ABS 28000
 
 static const char *TAG = "AirMicIDF";
-static const gpio_num_t KEY_PINS[] = {GPIO_NUM_25, GPIO_NUM_26, GPIO_NUM_13};
+static const gpio_num_t KEY_PINS[] = {GPIO_NUM_25, GPIO_NUM_26, GPIO_NUM_27};
 static const char *KEY_NAMES[] = {"BACKSPACE", "ENTER", "RIGHT_ALT_OPTION"};
 static const uint8_t KEY_COUNT = sizeof(KEY_PINS) / sizeof(KEY_PINS[0]);
 
@@ -159,6 +203,7 @@ static TaskHandle_t mic_task = NULL;
 static uint32_t last_hfp_connect_ms = 0;
 static uint32_t last_sco_connect_ms = 0;
 static uint32_t last_hid_connect_ms = 0;
+static uint32_t host_initiate_grace_until_ms = 0;
 static uint32_t last_status_ms = 0;
 static uint32_t last_key_activity_ms = 0;
 static uint32_t last_audio_activity_ms = 0;
@@ -956,6 +1001,10 @@ static void hf_incoming_data_cb(const uint8_t *buf, uint32_t len) {
 static void try_connect_hfp(const char *reason) {
     if (pairing_discoverable) return;
     if (!hfp_ready || !have_remote_bda || slc_connected) return;
+    if (millis_now() < host_initiate_grace_until_ms) return; // let the host connect first
+#if HID_BEFORE_HFP
+    if (hid_ready && !hid_connected) return; // let the keyboard link settle before the mic
+#endif
     uint32_t now = millis_now();
     uint32_t reconnect_ms = bt_low_activity ? LOW_ACTIVITY_RECONNECT_MS : HFP_RECONNECT_MS;
     if (now - last_hfp_connect_ms < reconnect_ms) return;
@@ -967,12 +1016,13 @@ static void try_connect_hfp(const char *reason) {
 }
 
 static void try_connect_hid(const char *reason) {
-#if MIC_ONLY_TEST_ENABLED
+#if MIC_ONLY_TEST_ENABLED || !DEVICE_INITIATE_HID
     (void)reason;
     return;
 #endif
     if (pairing_discoverable) return;
     if (!hid_ready || !have_remote_bda || hid_connected) return;
+    if (millis_now() < host_initiate_grace_until_ms) return; // let the host connect first
     uint32_t now = millis_now();
     uint32_t reconnect_ms = bt_low_activity ? LOW_ACTIVITY_RECONNECT_MS : HID_RECONNECT_MS;
     if (now - last_hid_connect_ms < reconnect_ms) return;
@@ -993,9 +1043,11 @@ static void try_connect_audio(const char *reason) {
     log_esp("esp_hf_client_connect_audio", esp_hf_client_connect_audio(remote_bda));
 }
 
+#if !ALLOW_MULTIPLE_HOSTS
 static bool bda_equal(const esp_bd_addr_t a, const esp_bd_addr_t b) {
     return memcmp(a, b, ESP_BD_ADDR_LEN) == 0;
 }
+#endif
 
 static void open_pairing_window(const char *reason) {
     pairing_discoverable = true;
@@ -1012,6 +1064,11 @@ static void close_pairing_window(const char *reason) {
 }
 
 static void enforce_single_bond(const esp_bd_addr_t keep) {
+#if ALLOW_MULTIPLE_HOSTS
+    // Keep all bonded hosts so the keypad can roam between macOS and Windows.
+    (void)keep;
+    return;
+#else
     int count = esp_bt_gap_get_bond_device_num();
     if (count <= 1) return;
     if (count > 8) count = 8;
@@ -1030,6 +1087,7 @@ static void enforce_single_bond(const esp_bd_addr_t keep) {
             log_esp("esp_bt_gap_remove_bond_device", esp_bt_gap_remove_bond_device(bonded[i]));
         }
     }
+#endif // ALLOW_MULTIPLE_HOSTS
 }
 
 static void clear_all_bonds_and_restart(void) {
@@ -1052,9 +1110,16 @@ static void clear_all_bonds_and_restart(void) {
 static void service_pairing_window(void) {
     if (!pairing_discoverable) return;
     uint32_t now = millis_now();
-    if (now - pairing_started_ms >= PAIRING_WINDOW_MS) {
-        close_pairing_window("timeout");
+    if (now - pairing_started_ms < PAIRING_WINDOW_MS) return;
+    // Window elapsed. While there is still no bonded host, keep the device
+    // discoverable indefinitely (slide the window forward) so first-time pairing
+    // is not fighting a 60s countdown. Once a host bonds, the manual/re-open
+    // window still times out normally.
+    if (esp_bt_gap_get_bond_device_num() <= 0) {
+        pairing_started_ms = now;
+        return;
     }
+    close_pairing_window("timeout");
 }
 
 static bool handle_pairing_shortcuts(void) {
@@ -1222,6 +1287,10 @@ static void hid_callback(esp_hidd_cb_event_t event, esp_hidd_cb_param_t *param) 
                 remember_bda(param->register_app.bd_addr);
                 ESP_LOGI(TAG, "HID virtual cable host remembered; waiting for host initiated connection");
             }
+#if !HFP_ENABLED
+            // Keyboard-only build: HFP normally kicks off the first reconnect, so do it here.
+            connect_first_bonded_device();
+#endif
             break;
         case ESP_HIDD_OPEN_EVT:
             hid_connected = (param->open.status == ESP_HIDD_SUCCESS && param->open.conn_status == ESP_HIDD_CONN_STATE_CONNECTED);
@@ -1264,6 +1333,8 @@ static void gap_callback(esp_bt_gap_cb_event_t event, esp_bt_gap_cb_param_t *par
 #endif
                 enforce_single_bond(param->auth_cmpl.bda);
                 close_pairing_window("pairing complete");
+                // Give the host (esp. Windows) first chance to open HID/HFP before we do.
+                host_initiate_grace_until_ms = millis_now() + HOST_INITIATE_GRACE_MS;
                 try_connect_hid("pairing complete");
                 try_connect_hfp("pairing complete");
             } else {
@@ -1346,7 +1417,11 @@ static void setup_bluetooth(void) {
     log_esp("esp_bluedroid_init", esp_bluedroid_init());
     log_esp("esp_bluedroid_enable", esp_bluedroid_enable());
 
-    esp_bt_io_cap_t iocap = ESP_BT_IO_CAP_NONE;
+#if REQUIRE_AUTHENTICATED_PAIRING
+    esp_bt_io_cap_t iocap = ESP_BT_IO_CAP_IO; // DisplayYesNo -> numeric comparison (MITM)
+#else
+    esp_bt_io_cap_t iocap = ESP_BT_IO_CAP_NONE; // Just Works (no MITM)
+#endif
     esp_bt_gap_set_security_param(ESP_BT_SP_IOCAP_MODE, &iocap, sizeof(iocap));
     esp_bt_pin_code_t pin = {0};
     esp_bt_gap_set_pin(ESP_BT_PIN_TYPE_VARIABLE, 0, pin);
@@ -1360,7 +1435,12 @@ static void setup_bluetooth(void) {
     cod.major = ESP_BT_COD_MAJOR_DEV_PERIPHERAL;
     cod.minor = ESP_BT_COD_MINOR_PERIPHERAL_KEYBOARD;
 #endif
+#if WINDOWS_COD_COMPAT
+    // Advertise a plain keyboard so Windows reliably attaches the HID service.
+    cod.service = 0;
+#else
     cod.service = ESP_BT_COD_SRVC_AUDIO | ESP_BT_COD_SRVC_TELEPHONY | ESP_BT_COD_SRVC_CAPTURING;
+#endif
     esp_bt_gap_set_cod(cod, ESP_BT_SET_COD_ALL);
     esp_bt_gap_register_callback(gap_callback);
     log_esp("esp_bt_gap_set_scan_mode(initial hidden)", esp_bt_gap_set_scan_mode(ESP_BT_CONNECTABLE, ESP_BT_NON_DISCOVERABLE));
@@ -1377,18 +1457,28 @@ static void setup_bluetooth(void) {
     log_esp("esp_bt_hid_device_init", esp_bt_hid_device_init());
 #endif
 
+#if HFP_ENABLED
     log_esp("esp_hf_client_register_data_callback", esp_hf_client_register_data_callback(hf_incoming_data_cb, hf_outgoing_data_cb));
     log_esp("esp_hf_client_register_callback", esp_hf_client_register_callback(hf_client_event_cb));
     log_esp("esp_hf_client_init", esp_hf_client_init());
+#else
+    ESP_LOGW(TAG, "HFP disabled (keyboard-only build); mic profile not started");
+#endif
 }
 
 static void print_status(void) {
     uint32_t now = millis_now();
     if (now - last_status_ms < STATUS_MS) return;
     last_status_ms = now;
-    ESP_LOGI(TAG, "RUN fw=%s pair=%s hfp=%s slc=%s sco=%s hidReady=%s hid=%s i2s=%s micStandby=%s btLow=%s batt=%dmV battLow=%s peak=%d noise=%" PRId32 " agc_q8=%" PRId32 " frames=%" PRIu32 " drops=%" PRIu32,
+    int bond_count = esp_bt_gap_get_bond_device_num();
+    char remote_str[18];
+    if (have_remote_bda) print_bda(remote_bda, remote_str, sizeof(remote_str));
+    else snprintf(remote_str, sizeof(remote_str), "none");
+    ESP_LOGI(TAG, "RUN fw=%s pair=%s bonds=%d target=%s hfp=%s slc=%s sco=%s hidReady=%s hid=%s i2s=%s micStandby=%s btLow=%s batt=%dmV battLow=%s peak=%d noise=%" PRId32 " agc_q8=%" PRId32 " frames=%" PRIu32 " drops=%" PRIu32,
              FIRMWARE_VERSION,
              pairing_discoverable ? "open" : "closed",
+             bond_count,
+             remote_str,
              hfp_ready ? "yes" : "no",
              slc_connected ? "yes" : "no",
              audio_connected ? "yes" : (audio_connecting ? "connecting" : "no"),
@@ -1443,6 +1533,8 @@ void app_main(void) {
     setup_keys();
     setup_battery_monitor();
     setup_bluetooth();
+    // On boot, let a bonded host reconnect on its own before we device-initiate.
+    host_initiate_grace_until_ms = millis_now() + HOST_INITIATE_GRACE_MS;
 
     while (true) {
         handle_keys();

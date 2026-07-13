@@ -3,8 +3,8 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 FIRMWARE_DIR="$ROOT_DIR/firmware/esp32_idf_classic_combo"
-CURRENT_FW="wr104-260701-micboost-i141532"
-CURRENT_PROFILE="MacAir microphone boost tuning + right alt/option key"
+CURRENT_FW="wr104-260713-combo"
+CURRENT_PROFILE="Multi-host roaming (Mac+Win) + status diagnostics + Windows COD toggle"
 IDF_EXPORT_SH="${IDF_EXPORT_SH:-$HOME/esp/esp-idf/export.sh}"
 PORT="${PORT:-${1:-}}"
 BAUD="${AIRSHUA_BAUD:-460800}"
@@ -32,7 +32,7 @@ Environment:
   AIRSHUA_BAUD=460800
   AIRSHUA_VERIFY_SECONDS=18
   AIRSHUA_SKIP_VERIFY=1
-  AIRSHUA_EXPECTED_FW=wr104-...  # default: wr104-260701-micboost-i141532
+  AIRSHUA_EXPECTED_FW=wr104-...  # default: wr104-260706-typecfix-gpio27
 USAGE
 }
 
@@ -82,7 +82,7 @@ log "Using port: $PORT"
 log "Firmware dir: $FIRMWARE_DIR"
 log "Profile: $CURRENT_PROFILE"
 log "Expected firmware: $EXPECTED_FW"
-log "Expected wiring: keys GPIO25(backspace)/GPIO26(enter)/GPIO13(right alt/option); INMP441 SCK=GPIO14 WS=GPIO15 SD=GPIO32"
+log "Expected wiring: keys GPIO25(backspace)/GPIO26(enter)/GPIO27(right alt/option); INMP441 SCK=GPIO14 WS=GPIO15 SD=GPIO32"
 
 # shellcheck source=/dev/null
 source "$IDF_EXPORT_SH" >/tmp/airmic_idf_export.log
