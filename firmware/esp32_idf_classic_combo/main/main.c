@@ -1,7 +1,7 @@
-// AirMic WR104 ESP-IDF Classic Bluetooth combo experiment
+// AirMic WR105 ESP-IDF Classic Bluetooth combo experiment
 // Board: ESP32-WROOM-32 / ESP32-WROOM-DA
 // Goal: one Classic Bluetooth device name with HFP microphone + Classic HID keyboard.
-// Firmware version: wr104-260713-rtmic
+// Firmware version: wr105-260713-rtmic
 
 #include <inttypes.h>
 #include <stdbool.h>
@@ -30,8 +30,8 @@
 #include "freertos/stream_buffer.h"
 #include "freertos/task.h"
 
-#define FIRMWARE_VERSION "wr104-260713-rtmic"
-#define BT_DEVICE_NAME "AirMic WR104"
+#define FIRMWARE_VERSION "wr105-260713-rtmic"
+#define BT_DEVICE_NAME "AirMic WR105"
 
 #define I2S_BCLK_GPIO 14
 #define I2S_WS_GPIO 15
@@ -1315,7 +1315,7 @@ static void hid_callback(esp_hidd_cb_event_t event, esp_hidd_cb_param_t *param) 
             if (hid_ready) {
                 esp_hidd_app_param_t app = {
                     .name = BT_DEVICE_NAME,
-                    .description = "AirMic WR104 Keyboard",
+                    .description = "AirMic WR105 Keyboard",
                     .provider = "AirMic",
                     .subclass = ESP_HID_CLASS_KBD,
                     .desc_list = (uint8_t *)HID_REPORT_MAP,
@@ -1556,7 +1556,7 @@ void app_main(void) {
     }
     ESP_ERROR_CHECK(ret);
 
-    ESP_LOGI(TAG, "AirMic WR104 ESP-IDF Classic combo %s", FIRMWARE_VERSION);
+    ESP_LOGI(TAG, "AirMic WR105 ESP-IDF Classic combo %s", FIRMWARE_VERSION);
 #if MIC_ONLY_TEST_ENABLED
     ESP_LOGI(TAG, "MIC_ONLY_TEST: only HFP microphone is active; HID, keys, battery and power management are disabled");
     ESP_LOGI(TAG, "MIC_ONLY_TEST: INMP441 SCK/BCLK=%d WS=%d SD=%d RAW_I2S_DIAG=on stereoScan=%s",

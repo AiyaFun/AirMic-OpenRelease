@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 FIRMWARE_DIR="$ROOT_DIR/firmware/esp32_idf_classic_combo"
-CURRENT_FW="wr104-260713-rtmic"
+CURRENT_FW="wr105-260713-rtmic"
 CURRENT_PROFILE="Multi-host roaming (Mac+Win) + status diagnostics + Windows COD toggle"
 IDF_EXPORT_SH="${IDF_EXPORT_SH:-$HOME/esp/esp-idf/export.sh}"
 PORT="${PORT:-${1:-}}"
