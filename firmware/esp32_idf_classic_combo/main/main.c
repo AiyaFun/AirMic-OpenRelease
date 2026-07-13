@@ -1,7 +1,7 @@
 // AirMic WR104 ESP-IDF Classic Bluetooth combo experiment
 // Board: ESP32-WROOM-32 / ESP32-WROOM-DA
 // Goal: one Classic Bluetooth device name with HFP microphone + Classic HID keyboard.
-// Firmware version: wr104-260713-combo
+// Firmware version: wr104-260713-rtmic
 
 #include <inttypes.h>
 #include <stdbool.h>
@@ -30,7 +30,7 @@
 #include "freertos/stream_buffer.h"
 #include "freertos/task.h"
 
-#define FIRMWARE_VERSION "wr104-260713-combo"
+#define FIRMWARE_VERSION "wr104-260713-rtmic"
 #define BT_DEVICE_NAME "AirMic WR104"
 
 #define I2S_BCLK_GPIO 14
@@ -72,6 +72,11 @@
 #define PAIRING_WINDOW_MS 60000
 #define PAIRING_REOPEN_HOLD_MS 3000
 #define PAIRING_CLEAR_HOLD_MS 5000
+// Hold BACKSPACE + RIGHT_ALT/OPTION (key0 + key2) this long to toggle the microphone
+// mode at runtime and reboot. The choice is persisted in NVS.
+#define MODE_TOGGLE_HOLD_MS 4000
+#define NVS_MODE_NAMESPACE "airmic"
+#define NVS_MODE_KEY_MIC "mic_enabled"
 
 // Multi-host roaming: keep every bonded host (e.g. both macOS and Windows) so the
 // keypad can move between computers without re-pairing. Set to 0 to fall back to the
@@ -216,8 +221,14 @@ static uint32_t combo_clear_started_ms = 0;
 static uint32_t mic_frames = 0;
 static uint32_t mic_drops = 0;
 static int16_t mic_peak = 0;
+static uint32_t combo_mode_started_ms = 0;
 static bool combo_pair_fired = false;
 static bool combo_clear_fired = false;
+static bool combo_mode_fired = false;
+// Runtime microphone mode: true = combo (keyboard + HFP mic, good for Mac),
+// false = keyboard-only (attaches on Android/Windows). Loaded from NVS at boot,
+// default on. Toggled by the BACKSPACE+RIGHT_ALT key combo (persisted + reboot).
+static bool mic_enabled = true;
 static bool mic_light_standby = false;
 static bool bt_low_activity = false;
 static bool battery_monitor_ready = false;
@@ -1122,6 +1133,26 @@ static void service_pairing_window(void) {
     close_pairing_window("timeout");
 }
 
+static void load_mic_mode(void) {
+    nvs_handle_t h;
+    if (nvs_open(NVS_MODE_NAMESPACE, NVS_READONLY, &h) != ESP_OK) return; // no stored value -> keep default
+    uint8_t v = 1;
+    if (nvs_get_u8(h, NVS_MODE_KEY_MIC, &v) == ESP_OK) mic_enabled = (v != 0);
+    nvs_close(h);
+}
+
+static void save_mic_mode_and_restart(bool enabled) {
+    nvs_handle_t h;
+    if (nvs_open(NVS_MODE_NAMESPACE, NVS_READWRITE, &h) == ESP_OK) {
+        nvs_set_u8(h, NVS_MODE_KEY_MIC, enabled ? 1 : 0);
+        nvs_commit(h);
+        nvs_close(h);
+    }
+    ESP_LOGW(TAG, "Mic mode toggled -> %s; restarting", enabled ? "ON (keyboard + mic)" : "OFF (keyboard only)");
+    vTaskDelay(pdMS_TO_TICKS(200));
+    esp_restart();
+}
+
 static bool handle_pairing_shortcuts(void) {
     bool key0 = gpio_get_level(KEY_PINS[0]) == 1;
     bool key1 = gpio_get_level(KEY_PINS[1]) == 1;
@@ -1151,6 +1182,19 @@ static bool handle_pairing_shortcuts(void) {
     }
     combo_pair_started_ms = 0;
     combo_pair_fired = false;
+
+    // BACKSPACE + RIGHT_ALT (no ENTER): hold to toggle mic mode, persist, reboot.
+    bool mode_combo = key0 && key2 && !key1;
+    if (mode_combo) {
+        if (combo_mode_started_ms == 0) combo_mode_started_ms = now;
+        if (!combo_mode_fired && now - combo_mode_started_ms >= MODE_TOGGLE_HOLD_MS) {
+            combo_mode_fired = true;
+            save_mic_mode_and_restart(!mic_enabled);
+        }
+        return true;
+    }
+    combo_mode_started_ms = 0;
+    combo_mode_fired = false;
 
     return false;
 }
@@ -1287,8 +1331,11 @@ static void hid_callback(esp_hidd_cb_event_t event, esp_hidd_cb_param_t *param) 
                 remember_bda(param->register_app.bd_addr);
                 ESP_LOGI(TAG, "HID virtual cable host remembered; waiting for host initiated connection");
             }
-#if !HFP_ENABLED
-            // Keyboard-only build: HFP normally kicks off the first reconnect, so do it here.
+#if HFP_ENABLED
+            // Keyboard-only mode: HFP normally kicks off the first reconnect (via its
+            // prof_stat event). With the mic disabled at runtime HFP never inits, so do it here.
+            if (!mic_enabled) connect_first_bonded_device();
+#else
             connect_first_bonded_device();
 #endif
             break;
@@ -1458,9 +1505,13 @@ static void setup_bluetooth(void) {
 #endif
 
 #if HFP_ENABLED
-    log_esp("esp_hf_client_register_data_callback", esp_hf_client_register_data_callback(hf_incoming_data_cb, hf_outgoing_data_cb));
-    log_esp("esp_hf_client_register_callback", esp_hf_client_register_callback(hf_client_event_cb));
-    log_esp("esp_hf_client_init", esp_hf_client_init());
+    if (mic_enabled) {
+        log_esp("esp_hf_client_register_data_callback", esp_hf_client_register_data_callback(hf_incoming_data_cb, hf_outgoing_data_cb));
+        log_esp("esp_hf_client_register_callback", esp_hf_client_register_callback(hf_client_event_cb));
+        log_esp("esp_hf_client_init", esp_hf_client_init());
+    } else {
+        ESP_LOGW(TAG, "Mic mode OFF (keyboard-only, runtime); HFP not started. Hold BACKSPACE+RIGHT_ALT %ds to toggle.", MODE_TOGGLE_HOLD_MS / 1000);
+    }
 #else
     ESP_LOGW(TAG, "HFP disabled (keyboard-only build); mic profile not started");
 #endif
@@ -1530,6 +1581,11 @@ void app_main(void) {
     last_key_activity_ms = boot_ms;
     last_audio_activity_ms = boot_ms;
     last_connected_ms = boot_ms;
+    load_mic_mode();
+    ESP_LOGI(TAG, "Mic mode: %s (%s). Hold BACKSPACE+RIGHT_ALT %ds to toggle.",
+             mic_enabled ? "ON" : "OFF",
+             mic_enabled ? "keyboard + mic, Mac" : "keyboard only, Android/Windows",
+             MODE_TOGGLE_HOLD_MS / 1000);
     setup_keys();
     setup_battery_monitor();
     setup_bluetooth();
