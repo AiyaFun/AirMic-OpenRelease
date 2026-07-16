@@ -12,7 +12,7 @@ It exposes one Classic Bluetooth device named `AirMic WR104` with:
 ## Version
 
 ```text
-wr104-260701-micboost-i141532
+wr104-260706-typecfix-gpio27
 ```
 
 ## Pins
@@ -23,7 +23,7 @@ Keys use internal pulldown and are active high:
 | --- | --- |
 | Backspace | GPIO25 |
 | Enter | GPIO26 |
-| Right Alt / Option | GPIO13 |
+| Right Alt / Option | GPIO27 |
 
 The third key sends one fixed HID modifier:
 
@@ -71,7 +71,7 @@ python3 -m esptool --chip esp32 --port /dev/cu.usbserial-1140 --baud 460800 --be
 Expected boot log:
 
 ```text
-AirMic WR104 ESP-IDF Classic combo wr104-260701-micboost-i141532
+AirMic WR104 ESP-IDF Classic combo wr104-260706-typecfix-gpio27
 HID init status=0 ready=yes
 No bonded host. Pair AirMic WR104 from macOS/Windows Bluetooth settings.
 ```

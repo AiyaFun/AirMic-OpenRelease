@@ -118,123 +118,15 @@
 1506	1564	1782825357782943789	bootloader.elf	e8fbb491e95fe3ff
 1564	1665	1782825357941018558	.bin_timestamp	6342bb311fa0e400
 1564	1665	1782825357941018558	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/.bin_timestamp	6342bb311fa0e400
-1665	1697	1782825357941703484	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-1665	1697	1782825357941703484	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-7	36	1782826390117093754	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-7	36	1782826390117093754	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782826863554546078	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782826863554546078	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	31	1782826950587883441	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	31	1782826950587883441	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	38	1782827205012494883	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	38	1782827205012494883	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	32	1782827209091396867	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	32	1782827209091396867	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	36	1782827318129674951	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	36	1782827318129674951	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782827322615312405	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782827322615312405	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782827360656815362	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782827360656815362	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782827366862728982	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782827366862728982	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	36	1782827418068702066	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	36	1782827418068702066	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782827422069366588	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782827422069366588	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782827455555618667	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782827455555618667	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	34	1782827459568886266	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	34	1782827459568886266	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	39	1782827812317691394	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	39	1782827812317691394	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782827821687866866	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782827821687866866	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-6	34	1782828168736690293	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-6	34	1782828168736690293	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782828271740315134	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782828271740315134	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782829609512951667	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782829609512951667	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782829622540886647	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782829622540886647	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782830045574773717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782830045574773717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782830057774472074	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782830057774472074	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	36	1782830168010479075	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	36	1782830168010479075	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	40	1782830173679381762	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	40	1782830173679381762	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782830483221977132	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782830483221977132	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782830488873854275	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782830488873854275	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	35	1782831642289335869	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	35	1782831642289335869	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782831657554034993	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782831657554034993	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782831677139761816	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782831677139761816	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832113024347462	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832113024347462	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832363031628429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832363031628429	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782832367223214717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782832367223214717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782832855026147314	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782832855026147314	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832870740852958	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782832870740852958	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	45	1782832876574448281	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	45	1782832876574448281	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782833407410198488	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782833407410198488	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782833771768932351	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782833771768932351	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782833901392153429	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782833901392153429	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782834154122640270	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	35	1782834154122640270	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782834484089864859	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782834484089864859	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782834849543409860	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782834849543409860	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782834853786727721	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	31	1782834853786727721	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-6	34	1782835089309847642	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-6	34	1782835089309847642	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782835157961134179	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782835157961134179	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	32	1782835162011957070	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	32	1782835162011957070	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782835468627426742	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782835468627426742	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	41	1782835502544026242	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	41	1782835502544026242	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	34	1782835538461896179	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-5	34	1782835538461896179	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	39	1782835542652231417	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	39	1782835542652231417	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	39	1782836480838793313	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	39	1782836480838793313	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782836486356099547	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782836486356099547	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782836726949362680	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	34	1782836726949362680	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782836765776386736	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	33	1782836765776386736	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782836788632257831	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	30	1782836788632257831	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782836792644105466	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782836792644105466	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782837015139682566	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-4	32	1782837015139682566	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782837113184602255	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782837113184602255	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782837117173263969	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-3	31	1782837117173263969	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-8	46	1782886369754639717	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-8	46	1782886369754639717	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	34	1782886374007201427	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
-2	34	1782886374007201427	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	38	1783936622830035834	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	38	1783936622830035834	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1783936632339682022	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+4	34	1783936632339682022	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	49	1783936658754523283	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+5	49	1783936658754523283	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	43	1783936663169660332	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	43	1783936663169660332	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+7	42	1784165725546658541	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+7	42	1784165725546658541	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	33	1784165729274048541	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40
+3	33	1784165729274048541	/Users/jiang/Downloads/01项目/AirMic Keypad/firmware/esp32_idf_classic_combo/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	b19b1e9d5f1c4a40

@@ -1,6 +1,6 @@
 # AirMic WR104 ESP-IDF Classic Combo
 
-**当前唯一保留版本**：`wr104-260701-micboost-i141532`（MacAir 参考麦克风增强版；第三个键固定为 Right Alt）  
+**当前唯一保留版本**：`wr104-260706-typecfix-gpio27`（MacAir 参考麦克风增强版；第三个键固定为 Right Alt，改用 GPIO27 避开 Type-C 数据口冲突）
 **蓝牙名称**：`AirMic WR104`  
 **方案**：一个 Classic Bluetooth 设备同时提供 HFP/HSP 麦克风和 Classic HID 键盘。
 
@@ -63,7 +63,7 @@ idf.py build
 | --- | --- | --- |
 | Backspace | GPIO25 | 按下接 3V3 |
 | Enter | GPIO26 | 按下接 3V3 |
-| 第三个键 | GPIO13 | 按下接 3V3 |
+| 第三个键 | GPIO27 | 按下接 3V3 |
 
 麦克风：
 
@@ -83,6 +83,7 @@ idf.py build
 - 在 macOS 上，`Right Alt` 会识别为右 `Option`。
 - 在 Windows 上，第三个键就是右 `Alt`，没有单独的 Win/Mac 档位。
 - INMP441 只能接 3.3V，控制端与麦克风必须共地。
+- GPIO13 不再接按键，避免与 Type-C 数据口相关线路冲突。
 - GPIO32 已用于 INMP441 的 SD/DOUT，不再接按键。
 - I2S 三根线尽量短，先按 `SCK=14 / WS=15 / SD=32` 保持不变。
 - 麦克风采用 MacAir 参考增强调音：更高前级增益、更开放 AGC、轻噪声门和软限幅，保留明显输入电平波动。
